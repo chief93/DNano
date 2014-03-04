@@ -6,3 +6,13 @@ D:\dev\projects\csharp\DNano\Application\obj\Debug\IDE.Properties.Resources.reso
 D:\dev\projects\csharp\DNano\Application\obj\Debug\IDE.csproj.GenerateResource.Cache
 D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.exe
 D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.pdb
+C:\Users\Святослав\Documents\GitHub\DNano\Application\bin\Debug\Application.exe.config
+C:\Users\Святослав\Documents\GitHub\DNano\Application\bin\Debug\Application.exe
+C:\Users\Святослав\Documents\GitHub\DNano\Application\bin\Debug\Application.pdb
+C:\Users\Святослав\Documents\GitHub\DNano\Application\obj\Debug\IDE.csprojResolveAssemblyReference.cache
+C:\Users\Святослав\Documents\GitHub\DNano\Application\obj\Debug\IDE.AppWindow.resources
+C:\Users\Святослав\Documents\GitHub\DNano\Application\obj\Debug\IDE.Properties.Resources.resources
+C:\Users\Святослав\Documents\GitHub\DNano\Application\obj\Debug\IDE.Windows.Settings.resources
+C:\Users\Святослав\Documents\GitHub\DNano\Application\obj\Debug\IDE.csproj.GenerateResource.Cache
+C:\Users\Святослав\Documents\GitHub\DNano\Application\obj\Debug\Application.exe
+C:\Users\Святослав\Documents\GitHub\DNano\Application\obj\Debug\Application.pdb
