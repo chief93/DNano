@@ -1,0 +1,8 @@
+D:\dev\projects\csharp\DNano\Application\bin\Debug\Application.exe.config
+D:\dev\projects\csharp\DNano\Application\bin\Debug\Application.exe
+D:\dev\projects\csharp\DNano\Application\bin\Debug\Application.pdb
+D:\dev\projects\csharp\DNano\Application\obj\Debug\IDE.AppWindow.resources
+D:\dev\projects\csharp\DNano\Application\obj\Debug\IDE.Properties.Resources.resources
+D:\dev\projects\csharp\DNano\Application\obj\Debug\IDE.csproj.GenerateResource.Cache
+D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.exe
+D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.pdb

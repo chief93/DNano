@@ -1,0 +1,4 @@
+D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
+D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.Properties.Resources.resources
+D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.csproj.GenerateResource.Cache
+D:\dev\projects\csharp\DNano\Application\obj\Debug\Application.Form1.resources
