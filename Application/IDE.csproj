@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +47,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstractions\DTO\ProjectDTO.cs" />
+    <Compile Include="Abstractions\Files\DClass.cs" />
+    <Compile Include="Abstractions\Files\DHeader.cs" />
+    <Compile Include="Abstractions\Files\DInterface.cs" />
+    <Compile Include="Abstractions\Files\DSource.cs" />
+    <Compile Include="Abstractions\FileItem.cs" />
+    <Compile Include="Abstractions\ICreable.cs" />
+    <Compile Include="Abstractions\IEditable.cs" />
+    <Compile Include="Abstractions\IProject.cs" />
+    <Compile Include="Abstractions\ISolution.cs" />
+    <Compile Include="Abstractions\Projects\Executable.cs" />
+    <Compile Include="Abstractions\Projects\StaticLibrary.cs" />
+    <Compile Include="Abstractions\Projects\Solution.cs" />
+    <Compile Include="Abstractions\DTO\SolutionDTO.cs" />
     <Compile Include="AppWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -52,13 +69,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Windows\Settings.cs">
+    <Compile Include="Windows\FileCreate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows\Settings.Designer.cs">
-      <DependentUpon>Settings.cs</DependentUpon>
+    <Compile Include="Windows\FileCreate.Designer.cs">
+      <DependentUpon>FileCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="UIHandlers\MainMenu\MenuFile.cs" />
+    <Compile Include="Windows\FileOpen.cs" />
+    <Compile Include="Windows\ServiceSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\ServiceSettings.Designer.cs">
+      <DependentUpon>ServiceSettings.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AppWindow.resx">
       <DependentUpon>AppWindow.cs</DependentUpon>
     </EmbeddedResource>
@@ -72,9 +95,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Windows\Settings.resx">
-      <DependentUpon>Settings.cs</DependentUpon>
+    <EmbeddedResource Include="Windows\FileCreate.resx">
+      <DependentUpon>FileCreate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Windows\ServiceSettings.resx">
+      <DependentUpon>ServiceSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,6 +115,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

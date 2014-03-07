@@ -1,8 +1,13 @@
 D:\dev\projects\csharp\DNano\Application\bin\Release\Application.exe.config
 D:\dev\projects\csharp\DNano\Application\bin\Release\Application.exe
 D:\dev\projects\csharp\DNano\Application\bin\Release\Application.pdb
+D:\dev\projects\csharp\DNano\Application\bin\Release\Newtonsoft.Json.dll
+D:\dev\projects\csharp\DNano\Application\bin\Release\Newtonsoft.Json.xml
+D:\dev\projects\csharp\DNano\Application\obj\Release\IDE.csprojResolveAssemblyReference.cache
 D:\dev\projects\csharp\DNano\Application\obj\Release\IDE.AppWindow.resources
 D:\dev\projects\csharp\DNano\Application\obj\Release\IDE.Properties.Resources.resources
+D:\dev\projects\csharp\DNano\Application\obj\Release\IDE.Windows.FileCreate.resources
+D:\dev\projects\csharp\DNano\Application\obj\Release\IDE.Windows.ServiceSettings.resources
 D:\dev\projects\csharp\DNano\Application\obj\Release\IDE.csproj.GenerateResource.Cache
 D:\dev\projects\csharp\DNano\Application\obj\Release\Application.exe
 D:\dev\projects\csharp\DNano\Application\obj\Release\Application.pdb

@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace IDE.Windows
 {
-    public partial class Settings : Form
+    public partial class ServiceSettings : Form
     {
-        public Settings()
+        public ServiceSettings()
         {
             InitializeComponent();
         }
 
         private void Settings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
