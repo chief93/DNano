@@ -25,7 +25,7 @@ namespace IDE.Abstractions
 
             List<string> fileComponents = pathComponents[pathComponents.Count - 1].Split('.').ToList<string>();
             Extension = fileComponents[fileComponents.Count - 1];
-            Name = Build(fileComponents, true, ".").Replace(".", "");
+            Name = pathComponents[pathComponents.Count - 1];
         }
 
         public static string Build(List<string> components, bool excludeLast = false, string delimiter = "/")
@@ -58,14 +58,15 @@ namespace IDE.Abstractions
 
             foreach (string entry in entries)
             {
-                string clearEntry = entry.Replace('\\', '/');
+                string clearEntry = entry.Replace('\\', '/').Replace("//", "/");
                 FileItem fileitem = new FileItem(clearEntry, "");
-                string textname = fileitem.Name + ((fileitem.Extension.Length != 0) ? "." + fileitem.Extension : "");
+                string textname = fileitem.Name;
 
                 TreeNode newNode = new TreeNode();
 
                 newNode.Name = textname;
                 newNode.Text = textname;
+                newNode.ToolTipText = clearEntry;
 
                 if (Directory.Exists(clearEntry))
                 {

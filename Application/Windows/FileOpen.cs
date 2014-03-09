@@ -19,7 +19,7 @@ namespace IDE.Windows
             _dialog = new OpenFileDialog();
         }
 
-        public static FileItem Open()
+        public static FileItem OpenInDialog()
         {
             FileStream file = null;
             string filter = "";
@@ -55,6 +55,11 @@ namespace IDE.Windows
                 MessageBox.Show("Ошибка! Невозможно открыть файл. Подробности: " + e.Message);
                 return null;
             }
+        }
+
+        public static FileItem OpenInline(string file)
+        {
+            return new FileItem(file, File.ReadAllText(file));
         }
     }
 }

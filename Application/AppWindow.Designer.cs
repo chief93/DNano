@@ -29,18 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Узел1");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Узел2");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Узел3");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Узел0", new System.Windows.Forms.TreeNode[] {
-            treeNode8,
-            treeNode9,
-            treeNode10});
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Узел5");
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Узел6");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Узел4", new System.Windows.Forms.TreeNode[] {
-            treeNode12,
-            treeNode13});
             this.ProjectItemsContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ProjectItemsContextMenuOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.ProjectItemsContextMenuOpenOut = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,8 +43,6 @@
             this.SolutionExplorer = new System.Windows.Forms.TreeView();
             this.SplitCodeBuild = new System.Windows.Forms.SplitContainer();
             this.WorkingFiles = new System.Windows.Forms.TabControl();
-            this.SampleWorkingFile = new System.Windows.Forms.TabPage();
-            this.Editor = new System.Windows.Forms.RichTextBox();
             this.Logs = new System.Windows.Forms.TabControl();
             this.BuildLog = new System.Windows.Forms.TabPage();
             this.SearchLog = new System.Windows.Forms.TabPage();
@@ -118,6 +104,17 @@
             this.StatusBarStatus = new System.Windows.Forms.ToolStripStatusLabel();
             this.StatusBarProgress = new System.Windows.Forms.ToolStripProgressBar();
             this.IDE = new System.Windows.Forms.TabPage();
+            this.WorkingFilesTabContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.WorkingFilesTabContextMenuClose = new System.Windows.Forms.ToolStripMenuItem();
+            this.WorkingFilesTabContextMenuSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.WorkingFilesTabContextMenuCloseLeft = new System.Windows.Forms.ToolStripMenuItem();
+            this.WorkingFilesTabContextMenuCloseRight = new System.Windows.Forms.ToolStripMenuItem();
+            this.WorkingFilesTabContextMenuSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.WorkingFilesTabContextMenuCloseAllExceptThat = new System.Windows.Forms.ToolStripMenuItem();
+            this.WorkingFilesTabContextMenuCloseAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.ProjectItemsContextMenuCopy = new System.Windows.Forms.ToolStripMenuItem();
+            this.ProjectItemsContextMenuСut = new System.Windows.Forms.ToolStripMenuItem();
+            this.ProjectItemsContextMenuPaste = new System.Windows.Forms.ToolStripMenuItem();
             this.ProjectItemsContextMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SplitSolutionDevelopment)).BeginInit();
             this.SplitSolutionDevelopment.Panel1.SuspendLayout();
@@ -127,11 +124,10 @@
             this.SplitCodeBuild.Panel1.SuspendLayout();
             this.SplitCodeBuild.Panel2.SuspendLayout();
             this.SplitCodeBuild.SuspendLayout();
-            this.WorkingFiles.SuspendLayout();
-            this.SampleWorkingFile.SuspendLayout();
             this.Logs.SuspendLayout();
             this.MenuBar.SuspendLayout();
             this.StatusBar.SuspendLayout();
+            this.WorkingFilesTabContextMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // ProjectItemsContextMenu
@@ -140,24 +136,29 @@
             this.ProjectItemsContextMenuOpen,
             this.ProjectItemsContextMenuOpenOut,
             this.ProjectItemsContextMenuSeparator1,
+            this.ProjectItemsContextMenuCopy,
+            this.ProjectItemsContextMenuСut,
+            this.ProjectItemsContextMenuPaste,
             this.ProjectItemsContextMenuRename,
             this.ProjectItemsContextMenuDelete,
             this.ProjectItemsContextMenuSeparator2,
             this.ProjectItemsContextMenuProperties});
             this.ProjectItemsContextMenu.Name = "ProjectItemsContextMenu";
-            this.ProjectItemsContextMenu.Size = new System.Drawing.Size(203, 126);
+            this.ProjectItemsContextMenu.Size = new System.Drawing.Size(203, 192);
             // 
             // ProjectItemsContextMenuOpen
             // 
             this.ProjectItemsContextMenuOpen.Name = "ProjectItemsContextMenuOpen";
             this.ProjectItemsContextMenuOpen.Size = new System.Drawing.Size(202, 22);
             this.ProjectItemsContextMenuOpen.Text = "Открыть";
+            this.ProjectItemsContextMenuOpen.Click += new System.EventHandler(this.ProjectItemsContextMenuOpen_Click);
             // 
             // ProjectItemsContextMenuOpenOut
             // 
             this.ProjectItemsContextMenuOpenOut.Name = "ProjectItemsContextMenuOpenOut";
             this.ProjectItemsContextMenuOpenOut.Size = new System.Drawing.Size(202, 22);
             this.ProjectItemsContextMenuOpenOut.Text = "Открыть вне редактора";
+            this.ProjectItemsContextMenuOpenOut.Click += new System.EventHandler(this.ProjectItemsContextMenuOpenOut_Click);
             // 
             // ProjectItemsContextMenuSeparator1
             // 
@@ -228,28 +229,14 @@
             this.SolutionExplorer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.SolutionExplorer.HideSelection = false;
             this.SolutionExplorer.Location = new System.Drawing.Point(0, 0);
             this.SolutionExplorer.Name = "SolutionExplorer";
-            treeNode8.Name = "Узел1";
-            treeNode8.Text = "Узел1";
-            treeNode9.Name = "Узел2";
-            treeNode9.Text = "Узел2";
-            treeNode10.Name = "Узел3";
-            treeNode10.Text = "Узел3";
-            treeNode11.ContextMenuStrip = this.ProjectItemsContextMenu;
-            treeNode11.Name = "Узел0";
-            treeNode11.Text = "Узел0";
-            treeNode12.Name = "Узел5";
-            treeNode12.Text = "Узел5";
-            treeNode13.Name = "Узел6";
-            treeNode13.Text = "Узел6";
-            treeNode14.Name = "Узел4";
-            treeNode14.Text = "Узел4";
-            this.SolutionExplorer.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode11,
-            treeNode14});
+            this.SolutionExplorer.PathSeparator = "/";
             this.SolutionExplorer.Size = new System.Drawing.Size(227, 514);
             this.SolutionExplorer.TabIndex = 0;
+            this.SolutionExplorer.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.SolutionExplorer_NodeMouseClick);
+            this.SolutionExplorer.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.SolutionExplorer_NodeMouseDoubleClick);
             // 
             // SplitCodeBuild
             // 
@@ -277,40 +264,13 @@
             this.WorkingFiles.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.WorkingFiles.Controls.Add(this.SampleWorkingFile);
             this.WorkingFiles.Location = new System.Drawing.Point(0, 0);
             this.WorkingFiles.Name = "WorkingFiles";
             this.WorkingFiles.SelectedIndex = 0;
             this.WorkingFiles.ShowToolTips = true;
             this.WorkingFiles.Size = new System.Drawing.Size(775, 343);
             this.WorkingFiles.TabIndex = 0;
-            // 
-            // SampleWorkingFile
-            // 
-            this.SampleWorkingFile.Controls.Add(this.Editor);
-            this.SampleWorkingFile.Location = new System.Drawing.Point(4, 22);
-            this.SampleWorkingFile.Name = "SampleWorkingFile";
-            this.SampleWorkingFile.Padding = new System.Windows.Forms.Padding(3);
-            this.SampleWorkingFile.Size = new System.Drawing.Size(767, 317);
-            this.SampleWorkingFile.TabIndex = 0;
-            this.SampleWorkingFile.Text = "main.d";
-            this.SampleWorkingFile.UseVisualStyleBackColor = true;
-            // 
-            // Editor
-            // 
-            this.Editor.AcceptsTab = true;
-            this.Editor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.Editor.AutoWordSelection = true;
-            this.Editor.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Editor.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Editor.Location = new System.Drawing.Point(0, 0);
-            this.Editor.Name = "Editor";
-            this.Editor.Size = new System.Drawing.Size(767, 317);
-            this.Editor.TabIndex = 0;
-            this.Editor.TabStop = false;
-            this.Editor.Text = "";
+            this.WorkingFiles.MouseClick += new System.Windows.Forms.MouseEventHandler(this._tabMouseClick);
             // 
             // Logs
             // 
@@ -762,6 +722,82 @@
             this.IDE.Text = "Среда";
             this.IDE.UseVisualStyleBackColor = true;
             // 
+            // WorkingFilesTabContextMenu
+            // 
+            this.WorkingFilesTabContextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.WorkingFilesTabContextMenuClose,
+            this.WorkingFilesTabContextMenuSeparator1,
+            this.WorkingFilesTabContextMenuCloseLeft,
+            this.WorkingFilesTabContextMenuCloseRight,
+            this.WorkingFilesTabContextMenuSeparator2,
+            this.WorkingFilesTabContextMenuCloseAllExceptThat,
+            this.WorkingFilesTabContextMenuCloseAll});
+            this.WorkingFilesTabContextMenu.Name = "WorkingFilesTabContextMenu";
+            this.WorkingFilesTabContextMenu.Size = new System.Drawing.Size(211, 126);
+            // 
+            // WorkingFilesTabContextMenuClose
+            // 
+            this.WorkingFilesTabContextMenuClose.Name = "WorkingFilesTabContextMenuClose";
+            this.WorkingFilesTabContextMenuClose.Size = new System.Drawing.Size(210, 22);
+            this.WorkingFilesTabContextMenuClose.Text = "Закрыть";
+            this.WorkingFilesTabContextMenuClose.Click += new System.EventHandler(this.WorkingFilesTabContextMenuClose_Click);
+            // 
+            // WorkingFilesTabContextMenuSeparator1
+            // 
+            this.WorkingFilesTabContextMenuSeparator1.Name = "WorkingFilesTabContextMenuSeparator1";
+            this.WorkingFilesTabContextMenuSeparator1.Size = new System.Drawing.Size(207, 6);
+            // 
+            // WorkingFilesTabContextMenuCloseLeft
+            // 
+            this.WorkingFilesTabContextMenuCloseLeft.Name = "WorkingFilesTabContextMenuCloseLeft";
+            this.WorkingFilesTabContextMenuCloseLeft.Size = new System.Drawing.Size(210, 22);
+            this.WorkingFilesTabContextMenuCloseLeft.Text = "Закрыть слева";
+            this.WorkingFilesTabContextMenuCloseLeft.Click += new System.EventHandler(this.WorkingFilesTabContextMenuCloseLeft_Click);
+            // 
+            // WorkingFilesTabContextMenuCloseRight
+            // 
+            this.WorkingFilesTabContextMenuCloseRight.Name = "WorkingFilesTabContextMenuCloseRight";
+            this.WorkingFilesTabContextMenuCloseRight.Size = new System.Drawing.Size(210, 22);
+            this.WorkingFilesTabContextMenuCloseRight.Text = "Закрыть справа";
+            this.WorkingFilesTabContextMenuCloseRight.Click += new System.EventHandler(this.WorkingFilesTabContextMenuCloseRight_Click);
+            // 
+            // WorkingFilesTabContextMenuSeparator2
+            // 
+            this.WorkingFilesTabContextMenuSeparator2.Name = "WorkingFilesTabContextMenuSeparator2";
+            this.WorkingFilesTabContextMenuSeparator2.Size = new System.Drawing.Size(207, 6);
+            // 
+            // WorkingFilesTabContextMenuCloseAllExceptThat
+            // 
+            this.WorkingFilesTabContextMenuCloseAllExceptThat.Name = "WorkingFilesTabContextMenuCloseAllExceptThat";
+            this.WorkingFilesTabContextMenuCloseAllExceptThat.Size = new System.Drawing.Size(210, 22);
+            this.WorkingFilesTabContextMenuCloseAllExceptThat.Text = "Закрыть все, кроме этой";
+            this.WorkingFilesTabContextMenuCloseAllExceptThat.Click += new System.EventHandler(this.WorkingFilesTabContextMenuCloseAllExceptThat_Click);
+            // 
+            // WorkingFilesTabContextMenuCloseAll
+            // 
+            this.WorkingFilesTabContextMenuCloseAll.Name = "WorkingFilesTabContextMenuCloseAll";
+            this.WorkingFilesTabContextMenuCloseAll.Size = new System.Drawing.Size(210, 22);
+            this.WorkingFilesTabContextMenuCloseAll.Text = "Закрыть все";
+            this.WorkingFilesTabContextMenuCloseAll.Click += new System.EventHandler(this.WorkingFilesTabContextMenuCloseAll_Click);
+            // 
+            // ProjectItemsContextMenuCopy
+            // 
+            this.ProjectItemsContextMenuCopy.Name = "ProjectItemsContextMenuCopy";
+            this.ProjectItemsContextMenuCopy.Size = new System.Drawing.Size(202, 22);
+            this.ProjectItemsContextMenuCopy.Text = "Копировать";
+            // 
+            // ProjectItemsContextMenuСut
+            // 
+            this.ProjectItemsContextMenuСut.Name = "ProjectItemsContextMenuСut";
+            this.ProjectItemsContextMenuСut.Size = new System.Drawing.Size(202, 22);
+            this.ProjectItemsContextMenuСut.Text = "Вырезать";
+            // 
+            // ProjectItemsContextMenuPaste
+            // 
+            this.ProjectItemsContextMenuPaste.Name = "ProjectItemsContextMenuPaste";
+            this.ProjectItemsContextMenuPaste.Size = new System.Drawing.Size(202, 22);
+            this.ProjectItemsContextMenuPaste.Text = "Вставить";
+            // 
             // AppWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -785,13 +821,12 @@
             this.SplitCodeBuild.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.SplitCodeBuild)).EndInit();
             this.SplitCodeBuild.ResumeLayout(false);
-            this.WorkingFiles.ResumeLayout(false);
-            this.SampleWorkingFile.ResumeLayout(false);
             this.Logs.ResumeLayout(false);
             this.MenuBar.ResumeLayout(false);
             this.MenuBar.PerformLayout();
             this.StatusBar.ResumeLayout(false);
             this.StatusBar.PerformLayout();
+            this.WorkingFilesTabContextMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -817,8 +852,6 @@
         private System.Windows.Forms.ToolStripMenuItem MenuService;
         private System.Windows.Forms.ToolStripMenuItem MenuHelp;
         private System.Windows.Forms.TabControl WorkingFiles;
-        private System.Windows.Forms.TabPage SampleWorkingFile;
-        private System.Windows.Forms.RichTextBox Editor;
         private System.Windows.Forms.ToolStripMenuItem MenuBuild;
         private System.Windows.Forms.ToolStripMenuItem MenuBuildSolutionCleanAndRebuild;
         private System.Windows.Forms.ToolStripSeparator MenuBuildSeparator1;
@@ -876,6 +909,17 @@
         private System.Windows.Forms.ToolStripMenuItem ProjectItemsContextMenuDeleteRemove;
         private System.Windows.Forms.ToolStripMenuItem ProjectItemsContextMenuDeleteDelete;
         private System.Windows.Forms.TabPage IDE;
+        private System.Windows.Forms.ContextMenuStrip WorkingFilesTabContextMenu;
+        private System.Windows.Forms.ToolStripMenuItem WorkingFilesTabContextMenuClose;
+        private System.Windows.Forms.ToolStripSeparator WorkingFilesTabContextMenuSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem WorkingFilesTabContextMenuCloseLeft;
+        private System.Windows.Forms.ToolStripMenuItem WorkingFilesTabContextMenuCloseRight;
+        private System.Windows.Forms.ToolStripSeparator WorkingFilesTabContextMenuSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem WorkingFilesTabContextMenuCloseAllExceptThat;
+        private System.Windows.Forms.ToolStripMenuItem WorkingFilesTabContextMenuCloseAll;
+        private System.Windows.Forms.ToolStripMenuItem ProjectItemsContextMenuCopy;
+        private System.Windows.Forms.ToolStripMenuItem ProjectItemsContextMenuСut;
+        private System.Windows.Forms.ToolStripMenuItem ProjectItemsContextMenuPaste;
     }
 }
 
