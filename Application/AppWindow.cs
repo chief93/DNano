@@ -73,30 +73,36 @@ namespace IDE
                 Program.Solution.Name = file.Name;
                 Program.Solution.Location = file.Location;
 
+                TreeNode solution = new TreeNode(Program.Solution.Name + " (" + Program.Solution.Location + ")");
+                solution.ToolTipText = Program.Solution.Location;
+
                 SolutionExplorer.Nodes.Clear();
-                SolutionExplorer.Nodes.Add(Program.Solution.Name + " (" + Program.Solution.Location + ")");
+                SolutionExplorer.Nodes.Add(solution);
                 
                 foreach (ProjectDTO project in Program.Solution.Projects)
                 {
-                    string prjText = project.Location + " (" + Program.Solution.Location + project.Location + ")";
+                    string projectDir = file.Location + "/" + project.Location + "/";
+                    string projectText = project.Location + " (" + Program.Solution.Location + project.Location + ")";
+
                     Control logs = logsTab.Controls[0];
+                    TreeNode[] prjContents = FileItem.BuildDirectoryTree(projectDir);
 
-                    TreeNode[] prjContents = FileItem.BuildDirectoryTree(file.Location + "/" + project.Location + "/");
-
-                    if (prjContents == null) logs.Text += "[warn] Не удалось загрузить проект " + prjText+ ". Каталог проекта не найден.";
+                    if (prjContents == null) logs.Text += "[warn] Не удалось загрузить проект " + projectText+ ". Каталог проекта не найден.";
                     else
                     {
                         TreeNode projectNode = new TreeNode(project.Location, prjContents);
+                        projectNode.ToolTipText = projectDir;
                         projectNode.Expand();
                         
                         SolutionExplorer.Nodes[0].Nodes.Add(projectNode);
 
-                        logs.Text += "[ ok ] Загружен проект: " + prjText;
+                        logs.Text += "[ ok ] Загружен проект: " + projectText;
                     }
 
                     logs.Text += "\r\n";
                 }
 
+                SolutionExplorer.Sort();
                 SolutionExplorer.Nodes[0].Expand();
             }
             else _openTab(file);
@@ -131,11 +137,14 @@ namespace IDE
             textBox.BorderStyle = BorderStyle.None;
 
             textBox.Text = file.Contents;
+            textBox.AcceptsTab = true;
 
             newTab.Controls.Add(textBox);
 
             WorkingFiles.TabPages.Add(newTab);
             WorkingFiles.SelectedTab = newTab;
+
+            textBox.Focus();
         }
 
         private void _tabMouseClick(object sender, MouseEventArgs e)
@@ -149,12 +158,12 @@ namespace IDE
                 if (!WorkingFiles.GetTabRect(index).Contains(e.Location)) continue;
 
                 _currentFile = tab.Name;
+                tab.Controls[0].Focus();
 
                 if (e.Button == MouseButtons.Right)
-                {
                     WorkingFilesTabContextMenu.Show(WorkingFiles, e.X, e.Y);
-                    return;
-                }
+
+                return;
             }
         }
 
@@ -221,7 +230,12 @@ namespace IDE
             Point target = e.Location;
             target.Offset(5, 50);
 
-            ProjectItemsContextMenu.Show(target);
+            //int index = (Directory.Exists(e.Node.ToolTipText)) ? 2 : 1;
+            //SolutionExplorerContextMenu.Items[SolutionExplorerContextMenu.Items.Count - index].Available = false;
+
+            SolutionExplorerContextMenu.Show(target);
+
+            //SolutionExplorerContextMenu.Items[SolutionExplorerContextMenu.Items.Count - index].Available = true;
         }
 
         private void ProjectItemsContextMenuOpen_Click(object sender, EventArgs e)
@@ -232,6 +246,76 @@ namespace IDE
         private void ProjectItemsContextMenuOpenOut_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start(_currentFile);
+        }
+
+
+
+        private void SolutionExplorer_ItemDrag(object sender, ItemDragEventArgs e)
+        {
+            DoDragDrop(e.Item, DragDropEffects.Move | DragDropEffects.Scroll);
+        }
+
+        private void SolutionExplorer_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move | DragDropEffects.Scroll;
+        }
+
+        private void SolutionExplorer_DragDrop(object sender, DragEventArgs e)
+        {
+            TreeView source = (TreeView)sender;
+            Point bounds = source.PointToClient(new Point(e.X, e.Y));
+            TreeNode target = source.GetNodeAt(bounds);
+
+            TreeNode copy = (TreeNode)e.Data.GetData(typeof(TreeNode));
+
+            if (copy.Index == 0 && copy.Parent == null) return;
+            if (target.ToolTipText == copy.ToolTipText) return;
+            if (!Directory.Exists(target.ToolTipText)) return;
+
+            TreeNode final = (TreeNode)copy.Clone();
+
+            if (copy.IsExpanded) final.Expand();
+
+            target.Checked = true;
+            target.Nodes.Add(final);
+            target.Expand();
+            target.TreeView.Sort();
+
+            copy.Remove();
+        }
+
+        private void SolutionExplorerContextMenuAddFolder_Click(object sender, EventArgs e)
+        {
+            string name = "Новая папка";
+
+            TreeNode node = new TreeNode(name);
+            node.Name = name;
+
+            if (Directory.Exists(_currentFile))
+            {
+                node.ToolTipText = SolutionExplorer.SelectedNode.ToolTipText + name;
+
+                SolutionExplorer.SelectedNode.Nodes.Add(node);
+                int index = SolutionExplorer.SelectedNode.Nodes.IndexOfKey(name);
+
+                SolutionExplorer.SelectedNode.TreeView.Sort();
+                SolutionExplorer.SelectedNode.Nodes[index].BeginEdit();
+            }
+            else
+            {
+                node.ToolTipText = SolutionExplorer.SelectedNode.Parent.ToolTipText + name;
+
+                SolutionExplorer.SelectedNode.Parent.Nodes.Add(node);
+                int index = SolutionExplorer.SelectedNode.Parent.Nodes.IndexOfKey(name);
+
+                SolutionExplorer.SelectedNode.Parent.TreeView.Sort();
+                SolutionExplorer.SelectedNode.Parent.Nodes[index].BeginEdit();
+            }
+        }
+
+        private void SolutionExplorerContextMenuRename_Click(object sender, EventArgs e)
+        {
+            SolutionExplorer.SelectedNode.BeginEdit();
         }
     }
 }
