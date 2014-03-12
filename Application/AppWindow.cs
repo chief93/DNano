@@ -40,6 +40,7 @@ namespace IDE
 
             logs.Font = new Font("Consolas", 8);
             logs.BorderStyle = BorderStyle.None;
+            logs.Text = "";
 
             Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")].Controls.Add(logs);
         }
@@ -78,13 +79,15 @@ namespace IDE
 
                 SolutionExplorer.Nodes.Clear();
                 SolutionExplorer.Nodes.Add(solution);
-                
+
+                Control logs = logsTab.Controls[0];
+                logs.Text = "";
+
                 foreach (ProjectDTO project in Program.Solution.Projects)
                 {
                     string projectDir = file.Location + "/" + project.Location + "/";
                     string projectText = project.Location + " (" + Program.Solution.Location + project.Location + ")";
 
-                    Control logs = logsTab.Controls[0];
                     TreeNode[] prjContents = FileItem.BuildDirectoryTree(projectDir);
 
                     if (prjContents == null) logs.Text += "[warn] Не удалось загрузить проект " + projectText+ ". Каталог проекта не найден.";
