@@ -21,6 +21,8 @@ namespace IDE
     {
         private string _currentFile;
 
+		public Stack<string> actionList = new Stack<string>();
+
         public AppWindow()
         {
             InitializeComponent();
@@ -149,6 +151,9 @@ namespace IDE
             WorkingFiles.TabPages.Add(newTab);
             WorkingFiles.SelectedTab = newTab;
 
+			textBox.TextChanged += new EventHandler(textBox_TextChanged);
+			textBox.KeyDown += new KeyEventHandler(textBox_KeyDown);
+
             textBox.Focus();
         }
 
@@ -171,6 +176,18 @@ namespace IDE
                 return;
             }
         }
+
+		private void textBox_TextChanged(object sender, EventArgs e)
+		{
+			actionList.Push(this.Text);
+		}
+
+		private void textBox_KeyDown(object sender, KeyEventArgs e)
+		{
+			if(e.KeyCode == Keys.Z && (e.Control)) {
+				this.Text = actionList.Pop();
+			}
+		}
 
         private void WorkingFilesTabContextMenuClose_Click(object sender, EventArgs e)
         {
@@ -349,5 +366,10 @@ namespace IDE
         {
             AppWindow.ActiveForm.Close();
         }
+
+		private void MenuEditUndo_Click(object sender, EventArgs e)
+		{
+
+		}
     }
 }
