@@ -63,7 +63,7 @@ namespace IDE
 
         private void MenuFileOpen_Click(object sender, EventArgs e)
         {
-            FileItem file = FileOpen.OpenInDialog();
+            FileItem file = FileIOUI.Open(this);
 
             if (file.Extension == "ns")
             {
@@ -220,7 +220,7 @@ namespace IDE
         private void SolutionExplorer_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
         {
             if (File.Exists(e.Node.ToolTipText))
-                _openTab(FileOpen.OpenInline(e.Node.ToolTipText));
+                _openTab(new FileItem(e.Node.ToolTipText));
         }
 
         private void SolutionExplorer_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
@@ -243,7 +243,7 @@ namespace IDE
 
         private void ProjectItemsContextMenuOpen_Click(object sender, EventArgs e)
         {
-            _openTab(FileOpen.OpenInline(_currentFile));
+            _openTab(new FileItem(_currentFile));
         }
 
         private void ProjectItemsContextMenuOpenOut_Click(object sender, EventArgs e)
@@ -319,6 +319,33 @@ namespace IDE
         private void SolutionExplorerContextMenuRename_Click(object sender, EventArgs e)
         {
             SolutionExplorer.SelectedNode.BeginEdit();
+        }
+
+        private void MenuFileSaveCurrent_Click(object sender, EventArgs e)
+        {
+            if (WorkingFiles.TabPages.Count == 0) return;
+
+            FileItem file = new FileItem(WorkingFiles.SelectedTab.Name, WorkingFiles.SelectedTab.Controls[0].Text);
+            file.Save();
+        }
+
+        private void MenuFileItemSaveAll_Click(object sender, EventArgs e)
+        {
+            foreach (TabPage tab in WorkingFiles.TabPages)
+            {
+                FileItem file = new FileItem(tab.Name, tab.Controls[0].Text);
+                file.Save();
+            }
+        }
+
+        private void MenuFileSaveCurrentAs_Click(object sender, EventArgs e)
+        {
+            FileIOUI.Save(this, new FileItem(WorkingFiles.SelectedTab.Name, WorkingFiles.SelectedTab.Controls[0].Text));
+        }
+
+        private void MenuFileExit_Click(object sender, EventArgs e)
+        {
+            AppWindow.ActiveForm.Close();
         }
     }
 }

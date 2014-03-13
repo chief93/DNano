@@ -64,7 +64,6 @@
             this.MenuFileAddExisting = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuFileSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.MenuFileSaveCurrent = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuFileSaveCurrentAs = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuFileItemSaveAll = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuFileSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.MenuFileExit = new System.Windows.Forms.ToolStripMenuItem();
@@ -414,7 +413,6 @@
             this.MenuFileAddExisting,
             this.MenuFileSeparator2,
             this.MenuFileSaveCurrent,
-            this.MenuFileSaveCurrentAs,
             this.MenuFileItemSaveAll,
             this.MenuFileSeparator3,
             this.MenuFileExit});
@@ -426,6 +424,7 @@
             // MenuFileCreate
             // 
             this.MenuFileCreate.Name = "MenuFileCreate";
+            this.MenuFileCreate.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.MenuFileCreate.Size = new System.Drawing.Size(319, 22);
             this.MenuFileCreate.Text = "Создать...";
             this.MenuFileCreate.Click += new System.EventHandler(this.MenuFileCreate_Click);
@@ -433,6 +432,7 @@
             // MenuFileOpen
             // 
             this.MenuFileOpen.Name = "MenuFileOpen";
+            this.MenuFileOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.MenuFileOpen.Size = new System.Drawing.Size(319, 22);
             this.MenuFileOpen.Text = "Открыть...";
             this.MenuFileOpen.Click += new System.EventHandler(this.MenuFileOpen_Click);
@@ -456,20 +456,19 @@
             // MenuFileSaveCurrent
             // 
             this.MenuFileSaveCurrent.Name = "MenuFileSaveCurrent";
+            this.MenuFileSaveCurrent.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.S)));
             this.MenuFileSaveCurrent.Size = new System.Drawing.Size(319, 22);
             this.MenuFileSaveCurrent.Text = "Сохранить";
-            // 
-            // MenuFileSaveCurrentAs
-            // 
-            this.MenuFileSaveCurrentAs.Name = "MenuFileSaveCurrentAs";
-            this.MenuFileSaveCurrentAs.Size = new System.Drawing.Size(319, 22);
-            this.MenuFileSaveCurrentAs.Text = "Сохранить как...";
+            this.MenuFileSaveCurrent.Click += new System.EventHandler(this.MenuFileSaveCurrent_Click);
             // 
             // MenuFileItemSaveAll
             // 
             this.MenuFileItemSaveAll.Name = "MenuFileItemSaveAll";
+            this.MenuFileItemSaveAll.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.MenuFileItemSaveAll.Size = new System.Drawing.Size(319, 22);
             this.MenuFileItemSaveAll.Text = "Сохранить всё";
+            this.MenuFileItemSaveAll.Click += new System.EventHandler(this.MenuFileItemSaveAll_Click);
             // 
             // MenuFileSeparator3
             // 
@@ -479,8 +478,10 @@
             // MenuFileExit
             // 
             this.MenuFileExit.Name = "MenuFileExit";
+            this.MenuFileExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
             this.MenuFileExit.Size = new System.Drawing.Size(319, 22);
             this.MenuFileExit.Text = "Выход";
+            this.MenuFileExit.Click += new System.EventHandler(this.MenuFileExit_Click);
             // 
             // MenuEdit
             // 
@@ -504,13 +505,15 @@
             // MenuEditUndo
             // 
             this.MenuEditUndo.Name = "MenuEditUndo";
-            this.MenuEditUndo.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditUndo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
+            this.MenuEditUndo.Size = new System.Drawing.Size(169, 22);
             this.MenuEditUndo.Text = "Отменить";
             // 
             // MenuEditRedo
             // 
             this.MenuEditRedo.Name = "MenuEditRedo";
-            this.MenuEditRedo.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditRedo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
+            this.MenuEditRedo.Size = new System.Drawing.Size(169, 22);
             this.MenuEditRedo.Text = "Вернуть";
             // 
             // MenuEditSeparator1
@@ -521,25 +524,29 @@
             // MenuEditCut
             // 
             this.MenuEditCut.Name = "MenuEditCut";
-            this.MenuEditCut.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditCut.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
+            this.MenuEditCut.Size = new System.Drawing.Size(181, 22);
             this.MenuEditCut.Text = "Вырезать";
             // 
             // MenuEditCopy
             // 
             this.MenuEditCopy.Name = "MenuEditCopy";
-            this.MenuEditCopy.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
+            this.MenuEditCopy.Size = new System.Drawing.Size(181, 22);
             this.MenuEditCopy.Text = "Копировать";
             // 
             // MenuEditPaste
             // 
             this.MenuEditPaste.Name = "MenuEditPaste";
-            this.MenuEditPaste.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditPaste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
+            this.MenuEditPaste.Size = new System.Drawing.Size(181, 22);
             this.MenuEditPaste.Text = "Вставить";
             // 
             // MenuEditDelete
             // 
             this.MenuEditDelete.Name = "MenuEditDelete";
-            this.MenuEditDelete.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditDelete.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
+            this.MenuEditDelete.Size = new System.Drawing.Size(181, 22);
             this.MenuEditDelete.Text = "Удалить";
             // 
             // MenuEditSeparator2
@@ -550,7 +557,8 @@
             // MenuEditSelectAll
             // 
             this.MenuEditSelectAll.Name = "MenuEditSelectAll";
-            this.MenuEditSelectAll.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditSelectAll.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.MenuEditSelectAll.Size = new System.Drawing.Size(190, 22);
             this.MenuEditSelectAll.Text = "Выделить всё";
             // 
             // MenuEditSeparator3
@@ -561,13 +569,15 @@
             // MenuEditFind
             // 
             this.MenuEditFind.Name = "MenuEditFind";
-            this.MenuEditFind.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditFind.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
+            this.MenuEditFind.Size = new System.Drawing.Size(190, 22);
             this.MenuEditFind.Text = "Найти...";
             // 
             // MenuEditReplace
             // 
             this.MenuEditReplace.Name = "MenuEditReplace";
-            this.MenuEditReplace.Size = new System.Drawing.Size(148, 22);
+            this.MenuEditReplace.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
+            this.MenuEditReplace.Size = new System.Drawing.Size(190, 22);
             this.MenuEditReplace.Text = "Заменить...";
             // 
             // MenuSolution
@@ -584,13 +594,16 @@
             // MenuSolutionRun
             // 
             this.MenuSolutionRun.Name = "MenuSolutionRun";
-            this.MenuSolutionRun.Size = new System.Drawing.Size(125, 22);
+            this.MenuSolutionRun.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F5)));
+            this.MenuSolutionRun.Size = new System.Drawing.Size(185, 22);
             this.MenuSolutionRun.Text = "Запуск";
             // 
             // MenuSolutionTest
             // 
             this.MenuSolutionTest.Name = "MenuSolutionTest";
-            this.MenuSolutionTest.Size = new System.Drawing.Size(125, 22);
+            this.MenuSolutionTest.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.F5)));
+            this.MenuSolutionTest.Size = new System.Drawing.Size(185, 22);
             this.MenuSolutionTest.Text = "Тест...";
             // 
             // MenuSolutionSeparator1
@@ -626,7 +639,8 @@
             // MenuBuildSolutionCleanAndRebuild
             // 
             this.MenuBuildSolutionCleanAndRebuild.Name = "MenuBuildSolutionCleanAndRebuild";
-            this.MenuBuildSolutionCleanAndRebuild.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildSolutionCleanAndRebuild.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F7)));
+            this.MenuBuildSolutionCleanAndRebuild.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildSolutionCleanAndRebuild.Text = "Очистить и перестроить решение";
             // 
             // MenuBuildProjectCleanAndRebuild
@@ -760,7 +774,8 @@
             // MenuHelpContents
             // 
             this.MenuHelpContents.Name = "MenuHelpContents";
-            this.MenuHelpContents.Size = new System.Drawing.Size(209, 22);
+            this.MenuHelpContents.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F1)));
+            this.MenuHelpContents.Size = new System.Drawing.Size(225, 22);
             this.MenuHelpContents.Text = "Просмотр справки";
             // 
             // MenuHelpAbout
@@ -929,7 +944,6 @@
         private System.Windows.Forms.ToolStripSeparator MenuFileSeparator1;
         private System.Windows.Forms.ToolStripMenuItem MenuFileAddExisting;
         private System.Windows.Forms.ToolStripMenuItem MenuFileSaveCurrent;
-        private System.Windows.Forms.ToolStripMenuItem MenuFileSaveCurrentAs;
         private System.Windows.Forms.ToolStripSeparator MenuFileSeparator3;
         private System.Windows.Forms.ToolStripMenuItem MenuEdit;
         private System.Windows.Forms.ToolStripMenuItem MenuEditUndo;

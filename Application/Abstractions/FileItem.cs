@@ -15,13 +15,31 @@ namespace IDE.Abstractions
         public string Name { get; private set; }
         public string Extension { get; private set; }
 
+        public FileItem(string path)
+        {
+            _parse(path);
+
+            if (File.Exists(path))
+                Contents = File.ReadAllText(path);
+        }
+
         public FileItem(string path, string contents)
+        {
+            _parse(path);
+            Contents = contents;
+        }
+
+        public void Save()
+        {
+            File.WriteAllText(Location + Name, Contents);
+        }
+
+        private void _parse(string path)
         {
             path = path.Replace('\\', '/');
 
             List<string> pathComponents = path.Split('/').ToList<string>();
             Location = Build(pathComponents, true);
-            Contents = contents;
 
             List<string> fileComponents = pathComponents[pathComponents.Count - 1].Split('.').ToList<string>();
             Extension = fileComponents[fileComponents.Count - 1];
@@ -59,7 +77,7 @@ namespace IDE.Abstractions
             foreach (string entry in entries)
             {
                 string clearEntry = entry.Replace('\\', '/').Replace("//", "/");
-                FileItem fileitem = new FileItem(clearEntry, "");
+                FileItem fileitem = new FileItem(clearEntry);
                 string textname = fileitem.Name;
 
                 TreeNode newNode = new TreeNode();

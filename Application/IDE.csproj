@@ -75,7 +75,7 @@
     <Compile Include="Windows\FileCreate.Designer.cs">
       <DependentUpon>FileCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\FileOpen.cs" />
+    <Compile Include="Windows\FileIOUI.cs" />
     <Compile Include="Windows\ServiceSettings.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -59,6 +60,26 @@ namespace IDE
             Abstractions.Add(new DHeader());
             Abstractions.Add(new DClass());
             Abstractions.Add(new DInterface());
+        }
+
+        public enum LogLVL
+        {
+            INFO,
+            WARN,
+            FATAL,
+            DEBUG
+        }
+
+        public static void Log(string message, LogLVL lvl = LogLVL.INFO)
+        {
+            try
+            {
+                File.AppendAllText("log.txt", "[" + lvl.ToString() + "] " + message);
+            }
+            catch (Exception e)
+            {
+                System.Diagnostics.Debug.WriteLine("Unable to write log into log.txt: " + e.Message);
+            }
         }
     }
 }
