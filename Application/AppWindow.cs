@@ -146,13 +146,12 @@ namespace IDE
             textBox.Text = file.Contents;
             textBox.AcceptsTab = true;
 
+			textBox.TextChanged += new EventHandler(textBox_TextChanged);
+
             newTab.Controls.Add(textBox);
 
             WorkingFiles.TabPages.Add(newTab);
             WorkingFiles.SelectedTab = newTab;
-
-			textBox.TextChanged += new EventHandler(textBox_TextChanged);
-			textBox.KeyDown += new KeyEventHandler(textBox_KeyDown);
 
             textBox.Focus();
         }
@@ -181,14 +180,6 @@ namespace IDE
 		{
 			RichTextBox box = (RichTextBox)sender;
 			actionList.Push(box.Text);
-		}
-
-		private void textBox_KeyDown(object sender, KeyEventArgs e)
-		{
-			RichTextBox box = (RichTextBox)sender;
-			if(e.KeyCode == Keys.Z && (e.Control)) {
-				box.Text = actionList.Pop();
-			}
 		}
 
         private void WorkingFilesTabContextMenuClose_Click(object sender, EventArgs e)
@@ -371,7 +362,8 @@ namespace IDE
 
 		private void MenuEditUndo_Click(object sender, EventArgs e)
 		{
-
+				RichTextBox box = (RichTextBox)sender;
+				box.Text = actionList.Pop();
 		}
     }
 }
