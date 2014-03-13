@@ -179,13 +179,15 @@ namespace IDE
 
 		private void textBox_TextChanged(object sender, EventArgs e)
 		{
-			actionList.Push(this.Text);
+			RichTextBox box = (RichTextBox)sender;
+			actionList.Push(box.Text);
 		}
 
 		private void textBox_KeyDown(object sender, KeyEventArgs e)
 		{
+			RichTextBox box = (RichTextBox)sender;
 			if(e.KeyCode == Keys.Z && (e.Control)) {
-				this.Text = actionList.Pop();
+				box.Text = actionList.Pop();
 			}
 		}
 
