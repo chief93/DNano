@@ -65,6 +65,8 @@ namespace IDE
         {
             FileItem file = FileIOUI.Open(this);
 
+            if (file == null) return;
+
             if (file.Extension == "ns")
             {
                 TabPage logsTab = Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")];

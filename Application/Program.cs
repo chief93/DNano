@@ -74,7 +74,7 @@ namespace IDE
         {
             try
             {
-                File.AppendAllText("log.txt", "[" + lvl.ToString() + "] " + message);
+                File.AppendAllText("log.txt", "[" + lvl.ToString().ToLower() + "] " + DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss") + " " + message + "\r\n");
             }
             catch (Exception e)
             {

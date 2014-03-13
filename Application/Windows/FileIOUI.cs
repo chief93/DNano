@@ -65,16 +65,24 @@ namespace IDE.Windows
                     return null;
                 }
 
-                byte[] buffer = new byte[1024 * 1024 * 10];
-                file.Read(buffer, 0, (int)file.Length);
-                
-                UTF8Encoding encoder = new UTF8Encoding();
+                if (file.Name == null) return null;
 
-                return new FileItem(file.Name, encoder.GetString(buffer));
+                string data = "";
+
+                if (file.Length > 0)
+                {
+                    byte[] buffer = new byte[1024 * 1024 * 10];
+                    file.Read(buffer, 0, (int)file.Length);
+                    
+                    UTF8Encoding encoder = new UTF8Encoding();
+                    data = encoder.GetString(buffer);
+                }
+
+                return new FileItem(file.Name, data);
             }
             catch (Exception e)
             {
-                MessageBox.Show("Ошибка! Невозможно открыть файл. Подробности: " + e.Message);
+                Program.Log("Unable to open file: " + e.Message, Program.LogLVL.WARN);
                 return null;
             }
         }
