@@ -21,6 +21,8 @@ namespace IDE
     {
         private string _currentFile;
 
+		public Stack<string> actionList = new Stack<string>();
+
         public AppWindow()
         {
             InitializeComponent();
@@ -162,6 +164,8 @@ namespace IDE
             textBox.Text = file.Contents;
             textBox.AcceptsTab = true;
 
+			textBox.TextChanged += new EventHandler(textBox_TextChanged);
+
             newTab.Controls.Add(textBox);
 
             WorkingFiles.TabPages.Add(newTab);
@@ -189,6 +193,12 @@ namespace IDE
                 return;
             }
         }
+
+		private void textBox_TextChanged(object sender, EventArgs e)
+		{
+			RichTextBox box = (RichTextBox)sender;
+			actionList.Push(box.Text);
+		}
 
         private void WorkingFilesTabContextMenuClose_Click(object sender, EventArgs e)
         {
@@ -368,6 +378,7 @@ namespace IDE
             AppWindow.ActiveForm.Close();
         }
 
+<<<<<<< HEAD
         private void MenuBuildSolutionCleanAndRebuild_Click(object sender, EventArgs e)
         {
             Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text = "Перестроение всех проектов начато\r\n";
@@ -427,5 +438,12 @@ namespace IDE
         {
             Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> [ ok ] " + compiler.Output.Assembly.Name + " Компиляция завершена\r\n";
         }
+=======
+		private void MenuEditUndo_Click(object sender, EventArgs e)
+		{
+				RichTextBox box = (RichTextBox)sender;
+				box.Text = actionList.Pop();
+		}
+>>>>>>> 807f5dd9250631e954f717a010a90177f629192d
     }
 }
