@@ -25,15 +25,17 @@ namespace IDE
         {
             InitializeComponent();
 
-            _initLogs();
+            Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")].Controls.Add(_initLogs());
+            Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls.Add(_initLogs());
         }
 
-        private void _initLogs()
+        private RichTextBox _initLogs()
         {
             RichTextBox logs = new RichTextBox();
 
             logs.Anchor = Anchors();
             logs.ReadOnly = true;
+            logs.ShortcutsEnabled = true;
 
             logs.Size = new Size(767, 140);
             logs.Location = new Point(0, 0);
@@ -42,7 +44,7 @@ namespace IDE
             logs.BorderStyle = BorderStyle.None;
             logs.Text = "";
 
-            Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")].Controls.Add(logs);
+            return logs;
         }
 
 
@@ -135,6 +137,22 @@ namespace IDE
             newTab.Size = new Size(767, 317);
 
             RichTextBox textBox = new RichTextBox();
+
+            /*
+             * bad :(
+             */
+            //Sansguerre.GtkScintilla textBox = new Sansguerre.GtkScintilla();
+            //textBox.LexerLanguage = "d";
+
+            /* 
+             * better, but non-universal. bugs on Mono
+             */
+            //ScintillaNET.Scintilla textBox = new ScintillaNET.Scintilla();
+            //textBox.Margins[0].Width = 20;
+            //textBox.Styles.Default.Font = new Font("Consolas", 9);
+            //textBox.ConfigurationManager.Language = "d";
+            //textBox.Indentation.SmartIndentType = ScintillaNET.SmartIndent.Simple;
+
             textBox.Anchor = Anchors();
             textBox.Size = new Size(767, 317);
             textBox.Location = new Point(0, 0);
@@ -348,6 +366,66 @@ namespace IDE
         private void MenuFileExit_Click(object sender, EventArgs e)
         {
             AppWindow.ActiveForm.Close();
+        }
+
+        private void MenuBuildSolutionCleanAndRebuild_Click(object sender, EventArgs e)
+        {
+            Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text = "Перестроение всех проектов начато\r\n";
+            Logs.SelectedTab = Logs.TabPages[Logs.TabPages.IndexOfKey("Output")];
+
+            int i = 0;
+
+            foreach (ProjectDTO project in Program.Solution.Projects)
+            {
+                Compiler compiler = new Compiler(Program.Compiler);
+                compiler.Id = ++i;
+                compiler.WorkingDirectory = Program.Solution.Location;
+
+                compiler.OnStart += _onCompileStart;
+                compiler.OnBeforeCompile += _onCompileReady;
+                compiler.OnCompile += _onCompileProcess;
+                compiler.OnError += _onCompileError;
+                compiler.OnSuccess += _onCompileSuccess;
+
+                compiler.Input.Files = FileItem.ObjectizeDirectory(Program.Solution.Location + project.Location);
+                compiler.Input.Import = Program.Solution.Import;
+
+                foreach (string import in project.Import)
+                    compiler.Input.Import.Add(import);
+
+                compiler.Output.Assembly = new FileItem(Program.Solution.Location + Program.Solution.Output[project.Target.ToString()] + "/" + project.Location);
+                compiler.Output.Headers = Program.Solution.Location + Program.Solution.Output["Headers"];
+                compiler.Output.Target = project.Target;
+
+                compiler.Call();
+            }
+
+            Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += "Перестроение всех проектов завершено\r\n";
+        }
+
+        private void _onCompileStart(Compiler compiler)
+        {
+            Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> [ ok ] " + compiler.Output.Assembly.Name + " Компиляция начата\r\n";
+        }
+
+        private void _onCompileReady(Compiler compiler, string comand)
+        {
+            //Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> [ ok ] " + compiler.Output.Assembly.Name + " Арументы компилятора: " + compiler.Comand + "\r\n";
+        }
+
+        private void _onCompileProcess(Compiler compiler, string stdout)
+        {
+            //Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> " + compiler.Comand + ": " + stdout + "\r\n";
+        }
+
+        private void _onCompileError(Compiler compiler, string reason)
+        {
+            Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> [warn] " + compiler.Output.Assembly.Name + " " + reason + "\r\n";
+        }
+
+        private void _onCompileSuccess(Compiler compiler)
+        {
+            Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> [ ok ] " + compiler.Output.Assembly.Name + " Компиляция завершена\r\n";
         }
     }
 }

@@ -9,6 +9,7 @@ using IDE.Abstractions;
 using IDE.Abstractions.DTO;
 using IDE.Abstractions.Files;
 using IDE.Abstractions.Projects;
+using IDE.Compilers;
 using IDE.Windows;
 
 namespace IDE
@@ -22,6 +23,8 @@ namespace IDE
 
         public static FileCreate FileCreate { get; private set; }
         public static ServiceSettings SettingsDialog { get; private set; }
+
+        public static ICompiler Compiler { get; private set; }
 
         /// <summary>
         /// Главная точка входа для приложения.
@@ -60,6 +63,9 @@ namespace IDE
             Abstractions.Add(new DHeader());
             Abstractions.Add(new DClass());
             Abstractions.Add(new DInterface());
+
+            Compiler = new DMD2Compiler();
+            Compiler.Location = "D:/dev/denv/dmd2/windows/bin/dmd.exe";
         }
 
         public enum LogLVL

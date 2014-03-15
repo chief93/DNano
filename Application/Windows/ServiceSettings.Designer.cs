@@ -33,9 +33,9 @@
             this.SettingsDialogTabs = new System.Windows.Forms.TabControl();
             this.SettingsDialogTabCommon = new System.Windows.Forms.TabPage();
             this.SettingsDialogTabBuilding = new System.Windows.Forms.TabPage();
+            this.SettingsDialogBuildingCompilerBrowse = new System.Windows.Forms.Button();
             this.SettingsDialogBuildingCompilerPathLabel = new System.Windows.Forms.Label();
             this.SettingsDialogBuildingCompilerPath = new System.Windows.Forms.TextBox();
-            this.SettingsDialogBuildingCompilerBrowse = new System.Windows.Forms.Button();
             this.SettingsDialogTabs.SuspendLayout();
             this.SettingsDialogTabBuilding.SuspendLayout();
             this.SuspendLayout();
@@ -48,6 +48,7 @@
             this.SettingsDialogButtonSave.TabIndex = 1;
             this.SettingsDialogButtonSave.Text = "Сохранить";
             this.SettingsDialogButtonSave.UseVisualStyleBackColor = true;
+            this.SettingsDialogButtonSave.Click += new System.EventHandler(this.SettingsDialogButtonSave_Click);
             // 
             // SettingsDialogButtonCancel
             // 
@@ -92,6 +93,15 @@
             this.SettingsDialogTabBuilding.Text = "Компиляция";
             this.SettingsDialogTabBuilding.UseVisualStyleBackColor = true;
             // 
+            // SettingsDialogBuildingCompilerBrowse
+            // 
+            this.SettingsDialogBuildingCompilerBrowse.Location = new System.Drawing.Point(373, 23);
+            this.SettingsDialogBuildingCompilerBrowse.Name = "SettingsDialogBuildingCompilerBrowse";
+            this.SettingsDialogBuildingCompilerBrowse.Size = new System.Drawing.Size(75, 23);
+            this.SettingsDialogBuildingCompilerBrowse.TabIndex = 2;
+            this.SettingsDialogBuildingCompilerBrowse.Text = "Обзор";
+            this.SettingsDialogBuildingCompilerBrowse.UseVisualStyleBackColor = true;
+            // 
             // SettingsDialogBuildingCompilerPathLabel
             // 
             this.SettingsDialogBuildingCompilerPathLabel.AutoSize = true;
@@ -107,16 +117,6 @@
             this.SettingsDialogBuildingCompilerPath.Name = "SettingsDialogBuildingCompilerPath";
             this.SettingsDialogBuildingCompilerPath.Size = new System.Drawing.Size(281, 20);
             this.SettingsDialogBuildingCompilerPath.TabIndex = 0;
-            this.SettingsDialogBuildingCompilerPath.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // SettingsDialogBuildingCompilerBrowse
-            // 
-            this.SettingsDialogBuildingCompilerBrowse.Location = new System.Drawing.Point(373, 23);
-            this.SettingsDialogBuildingCompilerBrowse.Name = "SettingsDialogBuildingCompilerBrowse";
-            this.SettingsDialogBuildingCompilerBrowse.Size = new System.Drawing.Size(75, 23);
-            this.SettingsDialogBuildingCompilerBrowse.TabIndex = 2;
-            this.SettingsDialogBuildingCompilerBrowse.Text = "Обзор";
-            this.SettingsDialogBuildingCompilerBrowse.UseVisualStyleBackColor = true;
             // 
             // ServiceSettings
             // 

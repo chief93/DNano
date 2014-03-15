@@ -62,6 +62,20 @@ namespace IDE.Abstractions
             return output;
         }
 
+        public static List<FileItem> ObjectizeDirectory(string path)
+        {
+            List<FileItem> output = new List<FileItem>();
+
+            if (!Directory.Exists(path)) return output;
+
+            List<string> entries = Directory.EnumerateFiles(path, "*.d", SearchOption.AllDirectories).ToList<string>();
+
+            foreach (string entry in entries)
+                if (File.Exists(entry)) output.Add(new FileItem(entry));
+
+            return output;
+        }
+
         public static TreeNode[] BuildDirectoryTree(string path)
         {
             path = path.Replace('\\', '/');

@@ -19,12 +19,13 @@ namespace IDE.Windows
 
         private void Settings_Load(object sender, EventArgs e)
         {
-
+            SettingsDialogTabs.TabPages[1].Controls["SettingsDialogBuildingCompilerPath"].Text = Program.Compiler.Location;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void SettingsDialogButtonSave_Click(object sender, EventArgs e)
         {
-
+            Program.Compiler.Location = SettingsDialogTabs.TabPages[1].Controls["SettingsDialogBuildingCompilerPath"].Text;
+            Close();
         }
     }
 }

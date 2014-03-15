@@ -39,10 +39,10 @@
             this.SolutionExplorerContextMenuRename = new System.Windows.Forms.ToolStripMenuItem();
             this.SolutionExplorerContextMenuSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.SolutionExplorerContextMenuAdd = new System.Windows.Forms.ToolStripMenuItem();
-            this.SolutionExplorerContextMenuAddFile = new System.Windows.Forms.ToolStripMenuItem();
-            this.SolutionExplorerContextMenuAddFolder = new System.Windows.Forms.ToolStripMenuItem();
-            this.SolutionExplorerContextMenuAddSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.SolutionExplorerContextMenuAddElement = new System.Windows.Forms.ToolStripMenuItem();
+            this.SolutionExplorerContextMenuAddSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.SolutionExplorerContextMenuAddFolder = new System.Windows.Forms.ToolStripMenuItem();
+            this.SolutionExplorerContextMenuAddFile = new System.Windows.Forms.ToolStripMenuItem();
             this.SolutionExplorerContextMenuDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.SolutionExplorerContextMenuDeleteRemove = new System.Windows.Forms.ToolStripMenuItem();
             this.SolutionExplorerContextMenuDeleteDelete = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,7 +53,7 @@
             this.SplitCodeBuild = new System.Windows.Forms.SplitContainer();
             this.WorkingFiles = new System.Windows.Forms.TabControl();
             this.Logs = new System.Windows.Forms.TabControl();
-            this.BuildLog = new System.Windows.Forms.TabPage();
+            this.Output = new System.Windows.Forms.TabPage();
             this.IDE = new System.Windows.Forms.TabPage();
             this.SearchLog = new System.Windows.Forms.TabPage();
             this.MenuBar = new System.Windows.Forms.MenuStrip();
@@ -213,29 +213,29 @@
             this.SolutionExplorerContextMenuAdd.Size = new System.Drawing.Size(202, 22);
             this.SolutionExplorerContextMenuAdd.Text = "Добавить";
             // 
-            // SolutionExplorerContextMenuAddFile
+            // SolutionExplorerContextMenuAddElement
             // 
-            this.SolutionExplorerContextMenuAddFile.Name = "SolutionExplorerContextMenuAddFile";
-            this.SolutionExplorerContextMenuAddFile.Size = new System.Drawing.Size(130, 22);
-            this.SolutionExplorerContextMenuAddFile.Text = "Файл";
-            // 
-            // SolutionExplorerContextMenuAddFolder
-            // 
-            this.SolutionExplorerContextMenuAddFolder.Name = "SolutionExplorerContextMenuAddFolder";
-            this.SolutionExplorerContextMenuAddFolder.Size = new System.Drawing.Size(152, 22);
-            this.SolutionExplorerContextMenuAddFolder.Text = "Папка";
-            this.SolutionExplorerContextMenuAddFolder.Click += new System.EventHandler(this.SolutionExplorerContextMenuAddFolder_Click);
+            this.SolutionExplorerContextMenuAddElement.Name = "SolutionExplorerContextMenuAddElement";
+            this.SolutionExplorerContextMenuAddElement.Size = new System.Drawing.Size(130, 22);
+            this.SolutionExplorerContextMenuAddElement.Text = "Элемент...";
             // 
             // SolutionExplorerContextMenuAddSeparator1
             // 
             this.SolutionExplorerContextMenuAddSeparator1.Name = "SolutionExplorerContextMenuAddSeparator1";
             this.SolutionExplorerContextMenuAddSeparator1.Size = new System.Drawing.Size(127, 6);
             // 
-            // SolutionExplorerContextMenuAddElement
+            // SolutionExplorerContextMenuAddFolder
             // 
-            this.SolutionExplorerContextMenuAddElement.Name = "SolutionExplorerContextMenuAddElement";
-            this.SolutionExplorerContextMenuAddElement.Size = new System.Drawing.Size(130, 22);
-            this.SolutionExplorerContextMenuAddElement.Text = "Элемент...";
+            this.SolutionExplorerContextMenuAddFolder.Name = "SolutionExplorerContextMenuAddFolder";
+            this.SolutionExplorerContextMenuAddFolder.Size = new System.Drawing.Size(130, 22);
+            this.SolutionExplorerContextMenuAddFolder.Text = "Папка";
+            this.SolutionExplorerContextMenuAddFolder.Click += new System.EventHandler(this.SolutionExplorerContextMenuAddFolder_Click);
+            // 
+            // SolutionExplorerContextMenuAddFile
+            // 
+            this.SolutionExplorerContextMenuAddFile.Name = "SolutionExplorerContextMenuAddFile";
+            this.SolutionExplorerContextMenuAddFile.Size = new System.Drawing.Size(130, 22);
+            this.SolutionExplorerContextMenuAddFile.Text = "Файл";
             // 
             // SolutionExplorerContextMenuDelete
             // 
@@ -326,7 +326,7 @@
             // 
             this.SplitCodeBuild.Panel2.Controls.Add(this.Logs);
             this.SplitCodeBuild.Size = new System.Drawing.Size(775, 514);
-            this.SplitCodeBuild.SplitterDistance = 350;
+            this.SplitCodeBuild.SplitterDistance = 352;
             this.SplitCodeBuild.SplitterWidth = 2;
             this.SplitCodeBuild.TabIndex = 0;
             // 
@@ -339,7 +339,7 @@
             this.WorkingFiles.Name = "WorkingFiles";
             this.WorkingFiles.SelectedIndex = 0;
             this.WorkingFiles.ShowToolTips = true;
-            this.WorkingFiles.Size = new System.Drawing.Size(775, 349);
+            this.WorkingFiles.Size = new System.Drawing.Size(775, 351);
             this.WorkingFiles.TabIndex = 0;
             this.WorkingFiles.MouseClick += new System.Windows.Forms.MouseEventHandler(this._tabMouseClick);
             // 
@@ -348,31 +348,31 @@
             this.Logs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Logs.Controls.Add(this.BuildLog);
+            this.Logs.Controls.Add(this.Output);
             this.Logs.Controls.Add(this.IDE);
             this.Logs.Controls.Add(this.SearchLog);
             this.Logs.Location = new System.Drawing.Point(1, 3);
             this.Logs.Name = "Logs";
             this.Logs.SelectedIndex = 0;
-            this.Logs.Size = new System.Drawing.Size(775, 158);
+            this.Logs.Size = new System.Drawing.Size(775, 155);
             this.Logs.TabIndex = 0;
             // 
-            // BuildLog
+            // Output
             // 
-            this.BuildLog.Location = new System.Drawing.Point(4, 22);
-            this.BuildLog.Name = "BuildLog";
-            this.BuildLog.Padding = new System.Windows.Forms.Padding(3);
-            this.BuildLog.Size = new System.Drawing.Size(767, 132);
-            this.BuildLog.TabIndex = 0;
-            this.BuildLog.Text = "Вывод";
-            this.BuildLog.UseVisualStyleBackColor = true;
+            this.Output.Location = new System.Drawing.Point(4, 22);
+            this.Output.Name = "Output";
+            this.Output.Padding = new System.Windows.Forms.Padding(3);
+            this.Output.Size = new System.Drawing.Size(767, 129);
+            this.Output.TabIndex = 0;
+            this.Output.Text = "Вывод";
+            this.Output.UseVisualStyleBackColor = true;
             // 
             // IDE
             // 
             this.IDE.Location = new System.Drawing.Point(4, 22);
             this.IDE.Name = "IDE";
             this.IDE.Padding = new System.Windows.Forms.Padding(3);
-            this.IDE.Size = new System.Drawing.Size(767, 134);
+            this.IDE.Size = new System.Drawing.Size(767, 132);
             this.IDE.TabIndex = 2;
             this.IDE.Text = "Среда";
             this.IDE.UseVisualStyleBackColor = true;
@@ -382,7 +382,7 @@
             this.SearchLog.Location = new System.Drawing.Point(4, 22);
             this.SearchLog.Name = "SearchLog";
             this.SearchLog.Padding = new System.Windows.Forms.Padding(3);
-            this.SearchLog.Size = new System.Drawing.Size(767, 134);
+            this.SearchLog.Size = new System.Drawing.Size(767, 132);
             this.SearchLog.TabIndex = 1;
             this.SearchLog.Text = "Результаты поиска";
             this.SearchLog.UseVisualStyleBackColor = true;
@@ -506,53 +506,53 @@
             // 
             this.MenuEditUndo.Name = "MenuEditUndo";
             this.MenuEditUndo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.MenuEditUndo.Size = new System.Drawing.Size(169, 22);
+            this.MenuEditUndo.Size = new System.Drawing.Size(190, 22);
             this.MenuEditUndo.Text = "Отменить";
             // 
             // MenuEditRedo
             // 
             this.MenuEditRedo.Name = "MenuEditRedo";
             this.MenuEditRedo.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Y)));
-            this.MenuEditRedo.Size = new System.Drawing.Size(169, 22);
+            this.MenuEditRedo.Size = new System.Drawing.Size(190, 22);
             this.MenuEditRedo.Text = "Вернуть";
             // 
             // MenuEditSeparator1
             // 
             this.MenuEditSeparator1.Name = "MenuEditSeparator1";
-            this.MenuEditSeparator1.Size = new System.Drawing.Size(145, 6);
+            this.MenuEditSeparator1.Size = new System.Drawing.Size(187, 6);
             // 
             // MenuEditCut
             // 
             this.MenuEditCut.Name = "MenuEditCut";
             this.MenuEditCut.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.MenuEditCut.Size = new System.Drawing.Size(181, 22);
+            this.MenuEditCut.Size = new System.Drawing.Size(190, 22);
             this.MenuEditCut.Text = "Вырезать";
             // 
             // MenuEditCopy
             // 
             this.MenuEditCopy.Name = "MenuEditCopy";
             this.MenuEditCopy.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.MenuEditCopy.Size = new System.Drawing.Size(181, 22);
+            this.MenuEditCopy.Size = new System.Drawing.Size(190, 22);
             this.MenuEditCopy.Text = "Копировать";
             // 
             // MenuEditPaste
             // 
             this.MenuEditPaste.Name = "MenuEditPaste";
             this.MenuEditPaste.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.MenuEditPaste.Size = new System.Drawing.Size(181, 22);
+            this.MenuEditPaste.Size = new System.Drawing.Size(190, 22);
             this.MenuEditPaste.Text = "Вставить";
             // 
             // MenuEditDelete
             // 
             this.MenuEditDelete.Name = "MenuEditDelete";
             this.MenuEditDelete.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.MenuEditDelete.Size = new System.Drawing.Size(181, 22);
+            this.MenuEditDelete.Size = new System.Drawing.Size(190, 22);
             this.MenuEditDelete.Text = "Удалить";
             // 
             // MenuEditSeparator2
             // 
             this.MenuEditSeparator2.Name = "MenuEditSeparator2";
-            this.MenuEditSeparator2.Size = new System.Drawing.Size(145, 6);
+            this.MenuEditSeparator2.Size = new System.Drawing.Size(187, 6);
             // 
             // MenuEditSelectAll
             // 
@@ -564,7 +564,7 @@
             // MenuEditSeparator3
             // 
             this.MenuEditSeparator3.Name = "MenuEditSeparator3";
-            this.MenuEditSeparator3.Size = new System.Drawing.Size(145, 6);
+            this.MenuEditSeparator3.Size = new System.Drawing.Size(187, 6);
             // 
             // MenuEditFind
             // 
@@ -609,12 +609,12 @@
             // MenuSolutionSeparator1
             // 
             this.MenuSolutionSeparator1.Name = "MenuSolutionSeparator1";
-            this.MenuSolutionSeparator1.Size = new System.Drawing.Size(122, 6);
+            this.MenuSolutionSeparator1.Size = new System.Drawing.Size(182, 6);
             // 
             // MenuSolutionProperties
             // 
             this.MenuSolutionProperties.Name = "MenuSolutionProperties";
-            this.MenuSolutionProperties.Size = new System.Drawing.Size(125, 22);
+            this.MenuSolutionProperties.Size = new System.Drawing.Size(185, 22);
             this.MenuSolutionProperties.Text = "Свойства";
             // 
             // MenuBuild
@@ -642,68 +642,69 @@
             this.MenuBuildSolutionCleanAndRebuild.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F7)));
             this.MenuBuildSolutionCleanAndRebuild.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildSolutionCleanAndRebuild.Text = "Очистить и перестроить решение";
+            this.MenuBuildSolutionCleanAndRebuild.Click += new System.EventHandler(this.MenuBuildSolutionCleanAndRebuild_Click);
             // 
             // MenuBuildProjectCleanAndRebuild
             // 
             this.MenuBuildProjectCleanAndRebuild.Name = "MenuBuildProjectCleanAndRebuild";
-            this.MenuBuildProjectCleanAndRebuild.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildProjectCleanAndRebuild.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildProjectCleanAndRebuild.Text = "Очистить и перестроить проект";
             // 
             // MenuBuildSeparator1
             // 
             this.MenuBuildSeparator1.Name = "MenuBuildSeparator1";
-            this.MenuBuildSeparator1.Size = new System.Drawing.Size(258, 6);
+            this.MenuBuildSeparator1.Size = new System.Drawing.Size(304, 6);
             // 
             // MenuBuildSolutionBuild
             // 
             this.MenuBuildSolutionBuild.Name = "MenuBuildSolutionBuild";
-            this.MenuBuildSolutionBuild.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildSolutionBuild.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildSolutionBuild.Text = "Построить решение";
             // 
             // MenuBuildSolutionRebuild
             // 
             this.MenuBuildSolutionRebuild.Name = "MenuBuildSolutionRebuild";
-            this.MenuBuildSolutionRebuild.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildSolutionRebuild.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildSolutionRebuild.Text = "Перестроить решение";
             // 
             // MenuBuildSolutionClean
             // 
             this.MenuBuildSolutionClean.Name = "MenuBuildSolutionClean";
-            this.MenuBuildSolutionClean.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildSolutionClean.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildSolutionClean.Text = "Очистить решение";
             // 
             // MenuBuildSeparator2
             // 
             this.MenuBuildSeparator2.Name = "MenuBuildSeparator2";
-            this.MenuBuildSeparator2.Size = new System.Drawing.Size(258, 6);
+            this.MenuBuildSeparator2.Size = new System.Drawing.Size(304, 6);
             // 
             // MenuBuildProjectBuild
             // 
             this.MenuBuildProjectBuild.Name = "MenuBuildProjectBuild";
-            this.MenuBuildProjectBuild.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildProjectBuild.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildProjectBuild.Text = "Построить проект";
             // 
             // MenuBuildProjectRebuild
             // 
             this.MenuBuildProjectRebuild.Name = "MenuBuildProjectRebuild";
-            this.MenuBuildProjectRebuild.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildProjectRebuild.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildProjectRebuild.Text = "Перестроить проект";
             // 
             // MenuBuildProjectClean
             // 
             this.MenuBuildProjectClean.Name = "MenuBuildProjectClean";
-            this.MenuBuildProjectClean.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildProjectClean.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildProjectClean.Text = "Очистить проект";
             // 
             // MenuBuildSeparator3
             // 
             this.MenuBuildSeparator3.Name = "MenuBuildSeparator3";
-            this.MenuBuildSeparator3.Size = new System.Drawing.Size(258, 6);
+            this.MenuBuildSeparator3.Size = new System.Drawing.Size(304, 6);
             // 
             // MenuBuildOrder
             // 
             this.MenuBuildOrder.Name = "MenuBuildOrder";
-            this.MenuBuildOrder.Size = new System.Drawing.Size(261, 22);
+            this.MenuBuildOrder.Size = new System.Drawing.Size(307, 22);
             this.MenuBuildOrder.Text = "Порядок построения";
             // 
             // MenuVCS
@@ -781,7 +782,7 @@
             // MenuHelpAbout
             // 
             this.MenuHelpAbout.Name = "MenuHelpAbout";
-            this.MenuHelpAbout.Size = new System.Drawing.Size(209, 22);
+            this.MenuHelpAbout.Size = new System.Drawing.Size(225, 22);
             this.MenuHelpAbout.Text = "О программе DNano IDE";
             // 
             // StatusBar
@@ -907,7 +908,7 @@
         private System.Windows.Forms.TreeView SolutionExplorer;
         private System.Windows.Forms.SplitContainer SplitCodeBuild;
         private System.Windows.Forms.TabControl Logs;
-        private System.Windows.Forms.TabPage BuildLog;
+        private System.Windows.Forms.TabPage Output;
         private System.Windows.Forms.TabPage SearchLog;
         private System.Windows.Forms.MenuStrip MenuBar;
         private System.Windows.Forms.ToolStripMenuItem MenuFile;
