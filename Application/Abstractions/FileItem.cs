@@ -76,6 +76,46 @@ namespace IDE.Abstractions
             return output;
         }
 
+
+        public static void MoveMassive(string path, string target, string pattern)
+        {
+            if (!Directory.Exists(path)) return;
+
+            List<string> entries = Directory.EnumerateFiles(path, pattern, SearchOption.AllDirectories).ToList<string>();
+
+            foreach (string entry in entries)
+            {
+                string normalizedTarget = (target + entry.Replace(path, "")).Replace('\\', '/');
+
+                FileItem physicalTarget = new FileItem(normalizedTarget);
+
+                if (!Directory.Exists(physicalTarget.Location))
+                    Directory.CreateDirectory(physicalTarget.Location);
+
+                if (File.Exists(normalizedTarget))
+                    File.Delete(normalizedTarget);
+
+                File.Move(entry, normalizedTarget);
+            }
+        }
+
+
+        public static string BuildNormalizedPath(string path, bool addEndingSlash = false)
+        {
+            path = path.Replace('\\', '/').Replace("//", "/");
+            path += addEndingSlash ? "/" : "";
+
+            PlatformID platform = Environment.OSVersion.Platform;
+
+            if (platform != PlatformID.Unix || platform != PlatformID.MacOSX)
+            {
+                path = path.Replace('/', '\\');
+            }
+
+            return path;
+        }
+
+
         public static TreeNode[] BuildDirectoryTree(string path)
         {
             path = path.Replace('\\', '/');

@@ -48,8 +48,25 @@ namespace IDE.Abstractions
 
         public int Id { get; set; }
         public string WorkingDirectory { get; set; }
+        public string SolutionDirectory { get; set; }
         public string Comand { get; private set; }
         public string Log { get; private set; }
+
+        public string OutputExtension
+        {
+            get
+            {
+                PlatformID platform = Environment.OSVersion.Platform;
+
+                return (Output.Target == Target.Library)
+                    ? ((platform == PlatformID.Unix || platform == PlatformID.MacOSX)
+                        ? ".a"
+                        : ".lib"
+                    )
+                    : ""
+                ;
+            }
+        }
 
         public Compiler(ICompiler driver)
         {
@@ -60,38 +77,36 @@ namespace IDE.Abstractions
 
             WorkingDirectory = "";
             Log = "Начало процесса компиляции:\r\n * Обнаружение компилятора\r\n";
-            Comand = "-v -op -gc";
+            Comand = "";
         }
 
         public void Call()
         {
             OnStart(this);
 
-            //Log += " * Сбор файлов\r\n";
+            if (Output.Target == Target.Library)
+            {
+                Comand += " -gc -op";
+                Comand += " -lib";
+                Comand += " -H -Hd\"" + Output.Headers + "\"";
+            }
+
+            Comand += " -of\"" + FileItem.BuildNormalizedPath(Output.Assembly.Location) + Output.Assembly.Name.Replace(".", "") + OutputExtension + "\"";
+            
+            foreach (string import in Input.Import)
+            {
+                string clearImport = SolutionDirectory + import;
+
+                if (Output.Target == Target.Executable)
+                    Comand += " -L+" + FileItem.BuildNormalizedPath(clearImport, true);
+                
+                Comand += " -I" + FileItem.BuildNormalizedPath(clearImport);
+            }
 
             foreach (FileItem file in Input.Files)
                 Comand += " \"" + file.Location + file.Name + "\"";
 
-            //Log += " * Сбор зависимостей\r\n";
-
-            foreach (string import in Input.Import)
-            {
-                string clearImport = WorkingDirectory + import;
-
-                if (!Directory.Exists(clearImport))
-                    OnError(this, "Директория импорта " + clearImport + " не существует или отсутствуют права доступа.");
-                
-                Comand += " -I\"" + clearImport + "\"";
-            }
-
-            //Log += " * Включение дополнительных настроек компилятора\r\n";
-
-            if (Output.Target == Target.Library) Comand += " -lib";
-
-            Comand += " -of\"" + Output.Assembly.Location + "../test/" + Output.Assembly.Name + "\"";
-            // parsing flags stuff
-
-            //Log += "Компиляция:\r\n";
+            Comand = Comand.Trim();
 
             OnBeforeCompile(this, Comand);
 
@@ -117,7 +132,7 @@ namespace IDE.Abstractions
             while (!compiler.StandardError.EndOfStream)
                 OnError(this, compiler.StandardError.ReadToEnd());
 
-            //Log += "Компиляция завершена\r\n";
+            FileItem.MoveMassive(WorkingDirectory, Output.Headers, "*.di");
 
             OnSuccess(this);
         }

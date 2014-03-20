@@ -326,7 +326,7 @@
             // 
             this.SplitCodeBuild.Panel2.Controls.Add(this.Logs);
             this.SplitCodeBuild.Size = new System.Drawing.Size(775, 514);
-            this.SplitCodeBuild.SplitterDistance = 352;
+            this.SplitCodeBuild.SplitterDistance = 354;
             this.SplitCodeBuild.SplitterWidth = 2;
             this.SplitCodeBuild.TabIndex = 0;
             // 
@@ -339,7 +339,7 @@
             this.WorkingFiles.Name = "WorkingFiles";
             this.WorkingFiles.SelectedIndex = 0;
             this.WorkingFiles.ShowToolTips = true;
-            this.WorkingFiles.Size = new System.Drawing.Size(775, 351);
+            this.WorkingFiles.Size = new System.Drawing.Size(775, 353);
             this.WorkingFiles.TabIndex = 0;
             this.WorkingFiles.MouseClick += new System.Windows.Forms.MouseEventHandler(this._tabMouseClick);
             // 
@@ -354,15 +354,16 @@
             this.Logs.Location = new System.Drawing.Point(1, 3);
             this.Logs.Name = "Logs";
             this.Logs.SelectedIndex = 0;
-            this.Logs.Size = new System.Drawing.Size(775, 155);
+            this.Logs.Size = new System.Drawing.Size(775, 152);
             this.Logs.TabIndex = 0;
+            this.Logs.SelectedIndexChanged += new System.EventHandler(this.Logs_SelectedIndexChanged);
             // 
             // Output
             // 
             this.Output.Location = new System.Drawing.Point(4, 22);
             this.Output.Name = "Output";
             this.Output.Padding = new System.Windows.Forms.Padding(3);
-            this.Output.Size = new System.Drawing.Size(767, 129);
+            this.Output.Size = new System.Drawing.Size(767, 126);
             this.Output.TabIndex = 0;
             this.Output.Text = "Вывод";
             this.Output.UseVisualStyleBackColor = true;
@@ -372,7 +373,7 @@
             this.IDE.Location = new System.Drawing.Point(4, 22);
             this.IDE.Name = "IDE";
             this.IDE.Padding = new System.Windows.Forms.Padding(3);
-            this.IDE.Size = new System.Drawing.Size(767, 132);
+            this.IDE.Size = new System.Drawing.Size(767, 129);
             this.IDE.TabIndex = 2;
             this.IDE.Text = "Среда";
             this.IDE.UseVisualStyleBackColor = true;
@@ -382,7 +383,7 @@
             this.SearchLog.Location = new System.Drawing.Point(4, 22);
             this.SearchLog.Name = "SearchLog";
             this.SearchLog.Padding = new System.Windows.Forms.Padding(3);
-            this.SearchLog.Size = new System.Drawing.Size(767, 132);
+            this.SearchLog.Size = new System.Drawing.Size(767, 129);
             this.SearchLog.TabIndex = 1;
             this.SearchLog.Text = "Результаты поиска";
             this.SearchLog.UseVisualStyleBackColor = true;

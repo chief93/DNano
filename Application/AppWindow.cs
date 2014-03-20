@@ -389,7 +389,8 @@ namespace IDE
             {
                 Compiler compiler = new Compiler(Program.Compiler);
                 compiler.Id = ++i;
-                compiler.WorkingDirectory = Program.Solution.Location;
+                compiler.SolutionDirectory = Program.Solution.Location;
+                compiler.WorkingDirectory = Program.Solution.Location + project.Location;
 
                 compiler.OnStart += _onCompileStart;
                 compiler.OnBeforeCompile += _onCompileReady;
@@ -398,7 +399,9 @@ namespace IDE
                 compiler.OnSuccess += _onCompileSuccess;
 
                 compiler.Input.Files = FileItem.ObjectizeDirectory(Program.Solution.Location + project.Location);
-                compiler.Input.Import = Program.Solution.Import;
+
+                foreach (string import in Program.Solution.Import)
+                    compiler.Input.Import.Add(import);
 
                 foreach (string import in project.Import)
                     compiler.Input.Import.Add(import);
@@ -421,6 +424,7 @@ namespace IDE
         private void _onCompileReady(Compiler compiler, string comand)
         {
             //Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> [ ok ] " + compiler.Output.Assembly.Name + " Арументы компилятора: " + compiler.Comand + "\r\n";
+            Program.Log("dmd " + comand, Program.LogLVL.DEBUG);
         }
 
         private void _onCompileProcess(Compiler compiler, string stdout)
@@ -440,8 +444,14 @@ namespace IDE
 
 		private void MenuEditUndo_Click(object sender, EventArgs e)
 		{
-				RichTextBox box = (RichTextBox)sender;
-				box.Text = actionList.Pop();
+            RichTextBox box = (RichTextBox)sender;
+            box.Text = actionList.Pop();
 		}
+
+        private void Logs_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TabControl logs = (TabControl)sender;
+            logs.SelectedTab.Controls[0].Focus();
+        }
     }
 }
