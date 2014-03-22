@@ -46,8 +46,23 @@ namespace IDE
             logs.BorderStyle = BorderStyle.None;
             logs.Text = "";
 
+			ContextMenu menu = new ContextMenu();
+			MenuItem menuCopy = new MenuItem("Копировать");
+			menu.MenuItems.AddRange(new MenuItem[] {menuCopy});
+
+			menuCopy.Click += new EventHandler(menuCopy_Click);
+
+			logs.ContextMenu = menu;
+
             return logs;
         }
+
+		private void menuCopy_Click(object sender, EventArgs e)
+		{
+			RichTextBox box = (RichTextBox)sender;
+
+			box.Copy();
+		}
 
 
         private AnchorStyles Anchors()

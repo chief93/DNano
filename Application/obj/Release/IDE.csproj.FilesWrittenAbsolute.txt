@@ -1,0 +1,9 @@
+/home/kirixon/Projects/DNano/Application/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/kirixon/Projects/DNano/Application/obj/Release/IDE.AppWindow.resources
+/home/kirixon/Projects/DNano/Application/obj/Release/IDE.Properties.Resources.resources
+/home/kirixon/Projects/DNano/Application/obj/Release/IDE.Windows.FileCreate.resources
+/home/kirixon/Projects/DNano/Application/obj/Release/IDE.Windows.ServiceSettings.resources
+/home/kirixon/Projects/DNano/Application/bin/Release/Application.exe.mdb
+/home/kirixon/Projects/DNano/Application/bin/Release/Application.exe
+/home/kirixon/Projects/DNano/Application/obj/Release/Application.exe
+/home/kirixon/Projects/DNano/Application/obj/Release/Application.exe.mdb
