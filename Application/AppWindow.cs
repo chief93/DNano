@@ -76,8 +76,18 @@ namespace IDE
                 TabPage logsTab = Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")];
                 Logs.SelectedTab = logsTab;
 
-                Program.Solution = JsonConvert.DeserializeObject<SolutionDTO>(file.Contents);
-                //Program.Solution.Name = file.Name;
+                try
+                {
+                    Program.Solution = JsonConvert.DeserializeObject<SolutionDTO>(file.Contents);
+                }
+                catch (Exception ex)
+                {
+                    Program.Log("Can't parse solution file. Details: " + ex.Message);
+                    Alert.Error("Невозможно распознать файл решения");
+                }
+
+                if (Program.Solution == null) return;
+
                 Program.Solution.Location = file.Location;
 
                 TreeNode solution = new TreeNode(Program.Solution.Name + " (проектов: " + Program.Solution.Projects.Count + ")");
@@ -384,6 +394,12 @@ namespace IDE
             Logs.SelectedTab = Logs.TabPages[Logs.TabPages.IndexOfKey("Output")];
 
             int i = 0;
+
+            if (Program.Solution == null)
+            {
+                Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += "Не обнаружено проектов для построения\r\n";
+                return;
+            }
 
             foreach (ProjectDTO project in Program.Solution.Projects)
             {

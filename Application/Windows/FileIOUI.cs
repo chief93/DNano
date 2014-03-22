@@ -61,7 +61,7 @@ namespace IDE.Windows
                 
                 if (file == null)
                 {
-                    MessageBox.Show("Возникла ошибка при открытии файла. Не удалось прочитать файл.");
+                    Alert.Error("Возникла ошибка при открытии файла. Не удалось прочитать файл.");
                     return null;
                 }
 

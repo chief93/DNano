@@ -32,8 +32,8 @@ namespace IDE
         [STAThread]
         static void Main()
         {
-            try
-            {
+            //try
+            //{
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
 
@@ -41,11 +41,11 @@ namespace IDE
                 InitWindows();
 
                 Application.Run(AppWindow);
-            }
-            catch (Exception e)
-            {
-                Log("Exception captured. Details: " + e.Message, LogLVL.INFO);
-            }
+            //}
+            //catch (Exception e)
+            //{
+                //Log("Exception captured. Details: " + e.Message, LogLVL.INFO);
+            //}
         }
 
         [STAThread]

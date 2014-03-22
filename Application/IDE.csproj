@@ -71,6 +71,7 @@
     <Compile Include="Compilers\DMD2Compiler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Windows\Alert.cs" />
     <Compile Include="Windows\FileCreate.cs">
       <SubType>Form</SubType>
     </Compile>
