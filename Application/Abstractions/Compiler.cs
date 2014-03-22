@@ -50,7 +50,6 @@ namespace IDE.Abstractions
         public string WorkingDirectory { get; set; }
         public string SolutionDirectory { get; set; }
         public string Comand { get; private set; }
-        public string Log { get; private set; }
 
         public string OutputExtension
         {
@@ -76,7 +75,6 @@ namespace IDE.Abstractions
             Output = new _output();
 
             WorkingDirectory = "";
-            Log = "Начало процесса компиляции:\r\n * Обнаружение компилятора\r\n";
             Comand = "";
         }
 

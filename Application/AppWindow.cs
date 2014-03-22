@@ -77,10 +77,10 @@ namespace IDE
                 Logs.SelectedTab = logsTab;
 
                 Program.Solution = JsonConvert.DeserializeObject<SolutionDTO>(file.Contents);
-                Program.Solution.Name = file.Name;
+                //Program.Solution.Name = file.Name;
                 Program.Solution.Location = file.Location;
 
-                TreeNode solution = new TreeNode(Program.Solution.Name + " (" + Program.Solution.Location + ")");
+                TreeNode solution = new TreeNode(Program.Solution.Name + " (проектов: " + Program.Solution.Projects.Count + ")");
                 solution.ToolTipText = Program.Solution.Location;
 
                 SolutionExplorer.Nodes.Clear();

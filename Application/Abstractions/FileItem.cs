@@ -107,7 +107,7 @@ namespace IDE.Abstractions
 
             PlatformID platform = Environment.OSVersion.Platform;
 
-            if (platform != PlatformID.Unix || platform != PlatformID.MacOSX)
+            if (platform != PlatformID.Unix && platform != PlatformID.MacOSX)
             {
                 path = path.Replace('/', '\\');
             }

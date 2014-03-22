@@ -32,13 +32,20 @@ namespace IDE
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
 
-            RegisterAbstractions();
-            InitWindows();
+                RegisterAbstractions();
+                InitWindows();
 
-            Application.Run(AppWindow);
+                Application.Run(AppWindow);
+            }
+            catch (Exception e)
+            {
+                Log("Exception captured. Details: " + e.Message, LogLVL.INFO);
+            }
         }
 
         [STAThread]
