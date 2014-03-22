@@ -23,9 +23,21 @@ namespace IDE
 
 		public Stack<string> actionList = new Stack<string>();
 
+		ContextMenuStrip menu = new ContextMenuStrip();
+		ToolStripMenuItem menuCopy = new ToolStripMenuItem("Копировать");
+
+		ContextMenuStrip menueditor = new ContextMenuStrip();
+		ToolStripMenuItem menueditorCopy = new ToolStripMenuItem("Копировать");
+		ToolStripMenuItem  menueditorPaste = new ToolStripMenuItem("Вставить");
+
         public AppWindow()
         {
             InitializeComponent();
+
+			menu.Items.Add(menuCopy);
+			menuCopy.Click += new EventHandler(menuCopy_Click);
+
+			menuCopy.ShortcutKeys = Keys.Control | Keys.C;
 
             Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")].Controls.Add(_initLogs());
             Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls.Add(_initLogs());
@@ -46,22 +58,27 @@ namespace IDE
             logs.BorderStyle = BorderStyle.None;
             logs.Text = "";
 
-			ContextMenu menu = new ContextMenu();
-			MenuItem menuCopy = new MenuItem("Копировать");
-			menu.MenuItems.AddRange(new MenuItem[] {menuCopy});
-
-			menuCopy.Click += new EventHandler(menuCopy_Click);
-
-			logs.ContextMenu = menu;
+			logs.ContextMenuStrip = menu;
 
             return logs;
         }
 
 		private void menuCopy_Click(object sender, EventArgs e)
-		{
-			RichTextBox box = (RichTextBox)sender;
-
+		{	
+			RichTextBox box = (RichTextBox)(Logs.SelectedTab.Controls[0]);
 			box.Copy();
+		}
+
+		private void menueditorCopy_Click(object sender, EventArgs e)
+		{	
+			RichTextBox box = (RichTextBox)(WorkingFiles.SelectedTab.Controls[0]);
+			box.Copy();
+		}
+
+		private void menueditorPaste_Click(object sender, EventArgs e)
+		{	
+			RichTextBox box = (RichTextBox)(WorkingFiles.SelectedTab.Controls[0]);
+			box.Paste();
 		}
 
 
@@ -186,10 +203,20 @@ namespace IDE
             textBox.Font = new Font("Consolas", 9);
             textBox.BorderStyle = BorderStyle.None;
 
+			textBox.ContextMenuStrip = menueditor;
+
             textBox.Text = file.Contents;
             textBox.AcceptsTab = true;
 
 			textBox.TextChanged += new EventHandler(textBox_TextChanged);
+
+			menueditor.Items.Add(menueditorCopy);
+			menueditor.Items.Add(menueditorPaste);
+
+			menueditorCopy.ShortcutKeys = Keys.Control | Keys.C;
+			menueditorPaste.ShortcutKeys = Keys.Control | Keys.V;
+			menueditorCopy.Click += new EventHandler(menueditorCopy_Click);
+			menueditorPaste.Click += new EventHandler(menueditorPaste_Click);
 
             newTab.Controls.Add(textBox);
 
