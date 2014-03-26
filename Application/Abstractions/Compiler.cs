@@ -51,17 +51,24 @@ namespace IDE.Abstractions
         public string SolutionDirectory { get; set; }
         public string Comand { get; private set; }
 
-        public string OutputExtension
+        public static bool IsLinux
         {
             get
             {
                 PlatformID platform = Environment.OSVersion.Platform;
 
+                return (platform == PlatformID.Unix || platform == PlatformID.MacOSX);
+            }
+        }
+
+        public string LinkerLibSearchOption { get { return " -L" + (IsLinux ? "" : "+"); } }
+
+        public string OutputExtension
+        {
+            get
+            {
                 return (Output.Target == Target.Library)
-                    ? ((platform == PlatformID.Unix || platform == PlatformID.MacOSX)
-                        ? ".a"
-                        : ".lib"
-                    )
+                    ? (IsLinux ? ".a" : ".lib")
                     : ""
                 ;
             }
@@ -96,7 +103,7 @@ namespace IDE.Abstractions
                 string clearImport = SolutionDirectory + import;
 
                 if (Output.Target == Target.Executable)
-                    Comand += " -L+" + FileItem.BuildNormalizedPath(clearImport, true);
+                    Comand += LinkerLibSearchOption + FileItem.BuildNormalizedPath(clearImport, true);
                 
                 Comand += " -I" + FileItem.BuildNormalizedPath(clearImport);
             }

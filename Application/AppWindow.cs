@@ -23,6 +23,7 @@ namespace IDE
 
 		public Stack<string> actionList = new Stack<string>();
 
+        // я не это имел в виду когда говорил про ОДНО ОБЩЕЕ МЕНЮ
 		ContextMenuStrip menu = new ContextMenuStrip();
 		ToolStripMenuItem menuCopy = new ToolStripMenuItem("Копировать");
 
@@ -138,13 +139,18 @@ namespace IDE
 
                     TreeNode[] prjContents = FileItem.BuildDirectoryTree(projectDir);
 
-                    if (prjContents == null) logs.Text += "[warn] Не удалось загрузить проект " + projectText+ ". Каталог проекта не найден.";
+                    if (prjContents == null)
+                    {
+                        SolutionExplorer.Nodes[0].Nodes.Add(new TreeNode(project.Location + " [Ошибка]"));
+
+                        logs.Text += "[warn] Не удалось загрузить проект " + projectText + ". Каталог проекта не найден.";
+                    }
                     else
                     {
                         TreeNode projectNode = new TreeNode(project.Location, prjContents);
                         projectNode.ToolTipText = projectDir;
                         projectNode.Expand();
-                        
+
                         SolutionExplorer.Nodes[0].Nodes.Add(projectNode);
 
                         logs.Text += "[ ok ] Загружен проект: " + projectText;
@@ -330,7 +336,15 @@ namespace IDE
 
         private void ProjectItemsContextMenuOpenOut_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start(_currentFile);
+            try
+            {
+                System.Diagnostics.Process.Start(_currentFile);
+            }
+            catch (Exception ex)
+            {
+                Program.Log("Error opening file from solution tree. Details: " + ex.Message);
+                Alert.Error("Невозможно открыть во внешней программе выбранный файл или каталог. Возможно он не существует.");
+            }
         }
 
 
