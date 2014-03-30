@@ -61,7 +61,7 @@ namespace IDE.Abstractions
             }
         }
 
-        public string LinkerLibSearchOption { get { return " -L" + (IsLinux ? "" : "+"); } }
+        public string LinkerLibSearchOption { get { return " -L" + (IsLinux ? "-L" : "+"); } }
 
         public string OutputExtension
         {
