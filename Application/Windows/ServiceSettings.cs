@@ -25,6 +25,9 @@ namespace IDE.Windows
         private void SettingsDialogButtonSave_Click(object sender, EventArgs e)
         {
             Program.Compiler.Location = SettingsDialogTabs.TabPages[1].Controls["SettingsDialogBuildingCompilerPath"].Text;
+            Program.Settings.Repository.CompilerPath = SettingsDialogTabs.TabPages[1].Controls["SettingsDialogBuildingCompilerPath"].Text;
+
+            Program.Settings.Save();
             Close();
         }
     }

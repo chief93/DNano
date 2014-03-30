@@ -519,3 +519,2751 @@ dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+"D:\dev\projects\d\Ze
 [debug] 22.03.2014 15:27:18 dmd -gc -op -lib -H -Hd"/home/kirixon/Projects/ZetaBox/output/import" -of"/home/kirixon/Projects/ZetaBox/output/lib/ZetaBoxSound.a" -I/home/kirixon/Projects/ZetaBox/output/import -I/home/kirixon/Projects/ZetaBox/output/lib "/home/kirixon/Projects/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
 [debug] 22.03.2014 15:27:18 dmd -of"/home/kirixon/Projects/ZetaBox/output/exe/ZetaSpace" -L+/home/kirixon/Projects/ZetaBox/output/import/ -I/home/kirixon/Projects/ZetaBox/output/import -L+/home/kirixon/Projects/ZetaBox/output/lib/ -I/home/kirixon/Projects/ZetaBox/output/lib -L+/home/kirixon/Projects/ZetaBox/lib/derelict/import/ -I/home/kirixon/Projects/ZetaBox/lib/derelict/import -L+/home/kirixon/Projects/ZetaBox/lib/derelict/lib/dmd/ -I/home/kirixon/Projects/ZetaBox/lib/derelict/lib/dmd "/home/kirixon/Projects/ZetaBox/ZetaSpace/main.d"
 [info] 26.03.2014 13:13:14 Error opening file from solution tree. Details: Невозможно запустить процесс, так как не указано имя файла.
+[debug] 28.03.2014 00:16:05 r1
+[debug] 28.03.2014 00:16:05 r2
+[debug] 28.03.2014 00:16:36 r1
+[debug] 28.03.2014 00:16:36 r2
+[debug] 28.03.2014 00:16:37 r1
+[debug] 28.03.2014 00:16:37 r2
+[debug] 28.03.2014 00:17:38 r1
+[debug] 28.03.2014 00:17:38 r2
+[debug] 28.03.2014 00:18:43 r1 MenuBar
+[debug] 28.03.2014 00:18:43 r2
+[debug] 28.03.2014 00:19:14 r1 MenuBar
+[debug] 28.03.2014 00:19:14 r2
+[debug] 28.03.2014 00:22:01 r1 MenuBar
+[debug] 28.03.2014 00:22:02 r2
+[debug] 28.03.2014 00:23:55 r1 MenuBar
+[debug] 28.03.2014 00:23:55 r2
+[debug] 28.03.2014 00:37:34 r1 SolutionExplorer
+[debug] 28.03.2014 00:37:34 r2
+[debug] 28.03.2014 00:37:34 r1 MenuBar
+[debug] 28.03.2014 00:37:34 r2
+[debug] 28.03.2014 00:37:36 r1 MenuBar
+[debug] 28.03.2014 00:37:36 r2
+[debug] 28.03.2014 00:37:38 r1 MenuBar
+[debug] 28.03.2014 00:37:38 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:42 r2
+[debug] 28.03.2014 00:45:42 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:43 r2
+[debug] 28.03.2014 00:45:43 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:44 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:44 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:45 r2
+[debug] 28.03.2014 00:45:45 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:46 r2
+[debug] 28.03.2014 00:45:46 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:47 r2
+[debug] 28.03.2014 00:45:47 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:48 r2
+[debug] 28.03.2014 00:45:48 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:49 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:49 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:50 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:50 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:51 r2
+[debug] 28.03.2014 00:45:51 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:52 r2
+[debug] 28.03.2014 00:45:52 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:53 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:53 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:54 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:54 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:55 r2
+[debug] 28.03.2014 00:45:55 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:56 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:56 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:57 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:57 r2
+[debug] 28.03.2014 00:45:58 r1 SolutionExplorer
+[debug] 28.03.2014 00:45:58 r2
+[debug] 28.03.2014 00:48:14 r1 MenuBar
+[debug] 28.03.2014 00:48:14 r2
+[debug] 28.03.2014 00:50:39 r1 MenuBar
+[debug] 28.03.2014 00:50:39 r2
+[debug] 28.03.2014 01:10:04 r1 MenuBar
+[debug] 28.03.2014 01:10:04 r2
+[debug] 28.03.2014 01:10:05 r1 MenuBar
+[debug] 28.03.2014 01:10:05 r2
+[debug] 28.03.2014 01:10:05 r1 MenuBar
+[debug] 28.03.2014 01:10:05 r2
+[debug] 28.03.2014 01:10:05 r1 MenuBar
+[debug] 28.03.2014 01:10:05 r2
+[debug] 28.03.2014 01:10:05 r1 MenuBar
+[debug] 28.03.2014 01:10:05 r2
+[debug] 28.03.2014 01:10:05 r1 MenuBar
+[debug] 28.03.2014 01:10:05 r2
+[debug] 28.03.2014 01:10:05 r1 MenuBar
+[debug] 28.03.2014 01:10:05 r2
+[debug] 28.03.2014 01:10:05 r1 MenuBar
+[debug] 28.03.2014 01:10:05 r2
+[debug] 28.03.2014 01:10:06 r1 MenuBar
+[debug] 28.03.2014 01:10:06 r2
+[debug] 28.03.2014 01:10:17 r1 MenuBar
+[debug] 28.03.2014 01:10:17 r2
+[debug] 28.03.2014 01:10:29 r1 MenuBar
+[debug] 28.03.2014 01:10:29 r2
+[debug] 28.03.2014 01:14:18 r1 MenuBar
+[debug] 28.03.2014 01:14:18 r2
+[debug] 28.03.2014 01:14:18 r1 MenuBar
+[debug] 28.03.2014 01:14:18 r2
+[debug] 28.03.2014 01:21:10 r1 MenuBar
+[debug] 28.03.2014 01:21:10 r2
+[debug] 28.03.2014 01:21:11 r1 MenuBar
+[debug] 28.03.2014 01:21:11 r2
+[debug] 28.03.2014 01:21:11 r1 MenuBar
+[debug] 28.03.2014 01:21:11 r2
+[debug] 28.03.2014 01:21:12 r1 MenuBar
+[debug] 28.03.2014 01:21:12 r2
+[debug] 28.03.2014 01:21:13 r1 MenuBar
+[debug] 28.03.2014 01:21:13 r2
+[debug] 28.03.2014 01:21:13 r1 MenuBar
+[debug] 28.03.2014 01:21:13 r2
+[debug] 28.03.2014 01:21:13 r1 MenuBar
+[debug] 28.03.2014 01:21:13 r2
+[debug] 28.03.2014 01:21:13 r1 MenuBar
+[debug] 28.03.2014 01:21:13 r2
+[debug] 28.03.2014 01:21:13 r1 MenuBar
+[debug] 28.03.2014 01:21:13 r2
+[debug] 28.03.2014 01:23:49 r1 MenuBar
+[debug] 28.03.2014 01:23:49 r2
+[debug] 28.03.2014 01:23:50 r1 MenuBar
+[debug] 28.03.2014 01:23:50 r2
+[debug] 28.03.2014 01:23:50 r1 MenuBar
+[debug] 28.03.2014 01:23:50 r2
+[debug] 28.03.2014 01:23:50 r1 MenuBar
+[debug] 28.03.2014 01:23:50 r2
+[debug] 28.03.2014 01:23:50 r1 MenuBar
+[debug] 28.03.2014 01:23:50 r2
+[debug] 28.03.2014 01:23:51 r1 MenuBar
+[debug] 28.03.2014 01:23:51 r2
+[debug] 28.03.2014 01:23:51 r1 MenuBar
+[debug] 28.03.2014 01:23:51 r2
+[debug] 28.03.2014 01:23:51 r1 MenuBar
+[debug] 28.03.2014 01:23:51 r2
+[debug] 28.03.2014 01:23:51 r1 MenuBar
+[debug] 28.03.2014 01:23:51 r2
+[debug] 28.03.2014 01:23:51 r1 MenuBar
+[debug] 28.03.2014 01:23:51 r2
+[debug] 28.03.2014 01:23:52 r1 MenuBar
+[debug] 28.03.2014 01:23:52 r2
+[debug] 28.03.2014 01:29:26 r1 MenuBar
+[debug] 28.03.2014 01:29:26 r2
+[debug] 28.03.2014 01:29:29 r1 MenuBar
+[debug] 28.03.2014 01:29:29 r2
+[debug] 28.03.2014 01:29:29 r1 MenuBar
+[debug] 28.03.2014 01:29:29 r2
+[debug] 28.03.2014 01:29:29 r1 MenuBar
+[debug] 28.03.2014 01:29:29 r2
+[debug] 28.03.2014 01:29:29 r1 MenuBar
+[debug] 28.03.2014 01:29:29 r2
+[debug] 28.03.2014 01:29:29 r1 MenuBar
+[debug] 28.03.2014 01:29:29 r2
+[debug] 28.03.2014 01:29:29 r1 MenuBar
+[debug] 28.03.2014 01:29:29 r2
+[debug] 28.03.2014 01:29:30 r1 MenuBar
+[debug] 28.03.2014 01:29:30 r2
+[debug] 28.03.2014 01:29:30 r1 MenuBar
+[debug] 28.03.2014 01:29:30 r2
+[debug] 28.03.2014 02:31:11 r1 MenuBar
+[debug] 28.03.2014 02:31:20 r2
+[debug] 28.03.2014 02:31:21 r1 MenuBar
+[debug] 28.03.2014 02:31:21 r2
+[debug] 28.03.2014 02:37:38 r1 MenuBar
+[debug] 28.03.2014 02:37:49 r2
+[debug] 28.03.2014 02:37:51 r1 MenuBar
+[debug] 28.03.2014 02:37:51 r2
+[debug] 28.03.2014 07:03:21 r1 MenuBar
+[debug] 28.03.2014 07:03:30 r2
+[debug] 28.03.2014 07:03:33 r1 MenuBar
+[debug] 28.03.2014 07:03:33 r2
+[debug] 28.03.2014 12:03:44 r1 MenuBar
+[debug] 28.03.2014 12:03:44 r2
+[debug] 28.03.2014 12:03:45 r1 MenuBar
+[debug] 28.03.2014 12:03:45 r2
+[debug] 28.03.2014 12:03:51 r1 MenuBar
+[debug] 28.03.2014 12:03:52 r2
+[debug] 28.03.2014 12:03:52 r1 MenuBar
+[debug] 28.03.2014 12:03:52 r2
+[debug] 28.03.2014 12:03:53 r1 MenuBar
+[debug] 28.03.2014 12:03:53 r2
+[debug] 28.03.2014 12:03:53 r1 MenuBar
+[debug] 28.03.2014 12:03:53 r2
+[debug] 28.03.2014 12:03:53 r1 MenuBar
+[debug] 28.03.2014 12:03:53 r2
+[debug] 28.03.2014 12:03:54 r1 MenuBar
+[debug] 28.03.2014 12:03:54 r2
+[debug] 28.03.2014 12:03:54 r1 MenuBar
+[debug] 28.03.2014 12:03:54 r2
+[debug] 28.03.2014 12:03:54 r1 MenuBar
+[debug] 28.03.2014 12:03:54 r2
+[debug] 28.03.2014 12:03:54 r1 MenuBar
+[debug] 28.03.2014 12:03:54 r2
+[debug] 28.03.2014 12:03:55 r1 MenuBar
+[debug] 28.03.2014 12:03:55 r2
+[debug] 28.03.2014 12:03:55 r1 MenuBar
+[debug] 28.03.2014 12:03:55 r2
+[debug] 28.03.2014 12:03:55 r1 MenuBar
+[debug] 28.03.2014 12:03:55 r2
+[debug] 28.03.2014 12:03:55 r1 MenuBar
+[debug] 28.03.2014 12:03:55 r2
+[debug] 28.03.2014 12:03:55 r1 MenuBar
+[debug] 28.03.2014 12:03:55 r2
+[debug] 28.03.2014 12:03:55 r1 MenuBar
+[debug] 28.03.2014 12:03:55 r2
+[debug] 28.03.2014 12:03:56 r1 MenuBar
+[debug] 28.03.2014 12:03:56 r2
+[debug] 28.03.2014 12:03:56 r1 MenuBar
+[debug] 28.03.2014 12:03:56 r2
+[debug] 28.03.2014 12:03:56 r1 MenuBar
+[debug] 28.03.2014 12:03:56 r2
+[debug] 28.03.2014 12:11:48 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 12:11:54 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 12:11:57 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 12:11:57 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 12:11:57 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 12:14:26 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 12:14:27 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 12:14:28 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 12:14:28 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 12:14:28 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 12:14:54 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 12:14:55 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 12:14:56 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 12:14:56 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 12:14:56 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 12:38:57 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 12:38:57 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 12:38:59 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 12:38:59 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 12:38:59 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 13:40:02 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 13:40:04 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 13:40:06 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 13:40:06 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 13:40:06 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 13:40:27 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 13:40:28 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 13:40:29 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 13:40:29 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 13:40:29 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 13:41:11 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 13:41:11 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 13:41:13 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 13:41:13 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 13:41:13 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 13:41:46 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 13:41:47 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 13:41:48 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 13:41:48 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 13:41:48 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 13:43:07 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 13:43:08 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 13:43:09 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 13:43:09 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 13:43:09 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 13:45:39 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 13:45:40 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 13:45:41 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 13:45:41 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 13:45:41 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 28.03.2014 13:46:05 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 28.03.2014 13:46:06 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 28.03.2014 13:46:07 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 28.03.2014 13:46:08 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 28.03.2014 13:46:08 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 30.03.2014 12:55:56 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 30.03.2014 12:56:00 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 30.03.2014 12:56:02 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 30.03.2014 12:56:02 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 30.03.2014 12:56:03 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 30.03.2014 12:56:45 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"
+[debug] 30.03.2014 12:56:46 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxGraphics.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib -ID:\dev\projects\d\ZetaBox\lib\derelict\import -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Actor.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Camera.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Color.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Entities.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/GL.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Layout.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Loader.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Model.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Graphics/ZetaBox/Graphics/Screen.d"
+[debug] 30.03.2014 12:56:48 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSimulation.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib
+[debug] 30.03.2014 12:56:48 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxSound.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Sound/ZetaBox/Sound/__blank.d"
+[debug] 30.03.2014 12:56:48 dmd -of"D:\dev\projects\d\ZetaBox\output\exe\ZetaSpace" -L+D:\dev\projects\d\ZetaBox\output\import\ -ID:\dev\projects\d\ZetaBox\output\import -L+D:\dev\projects\d\ZetaBox\output\lib\ -ID:\dev\projects\d\ZetaBox\output\lib -L+D:\dev\projects\d\ZetaBox\lib\derelict\import\ -ID:\dev\projects\d\ZetaBox\lib\derelict\import -L+D:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd\ -ID:\dev\projects\d\ZetaBox\lib\derelict\lib\dmd "D:/dev/projects/d/ZetaBox/ZetaSpace/main.d"
+[debug] 30.03.2014 13:41:16 dmd -gc -op -lib -H -Hd"D:/dev/projects/d/ZetaBox/output/import" -of"D:\dev\projects\d\ZetaBox\output\lib\ZetaBoxCommon.lib" -ID:\dev\projects\d\ZetaBox\output\import -ID:\dev\projects\d\ZetaBox\output\lib "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Collections.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Containers.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Events.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/IO.d" "D:/dev/projects/d/ZetaBox/ZetaBox.Common/ZetaBox/Common/Loader.d"

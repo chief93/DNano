@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Newtonsoft.Json;
+
 using IDE.Abstractions;
 using IDE.Abstractions.DTO;
 using IDE.Abstractions.Files;
@@ -16,6 +18,7 @@ namespace IDE
 {
     static class Program
     {
+        public static ApplicationSettings<SettingsDTO> Settings { get; private set; }
         public static AppWindow AppWindow { get; private set; }
 
         public static List<ICreable> Abstractions { get; private set; }
@@ -71,8 +74,10 @@ namespace IDE
             Abstractions.Add(new DClass());
             Abstractions.Add(new DInterface());
 
+            Settings = new ApplicationSettings<SettingsDTO>("settings.json");
+
             Compiler = new DMD2Compiler();
-            Compiler.Location = "D:/dev/denv/dmd2/windows/bin/dmd.exe";
+            Compiler.Location = Settings.Repository.CompilerPath;
         }
 
         public enum LogLVL

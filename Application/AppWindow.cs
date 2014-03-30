@@ -42,6 +42,7 @@ namespace IDE
 
             Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")].Controls.Add(_initLogs());
             Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls.Add(_initLogs());
+            Logs.TabPages[Logs.TabPages.IndexOfKey("SearchLog")].Controls.Add(_initLogs());
         }
 
         private RichTextBox _initLogs()
@@ -49,10 +50,11 @@ namespace IDE
             RichTextBox logs = new RichTextBox();
 
             logs.Anchor = Anchors();
+            logs.AutoWordSelection = false;
             logs.ReadOnly = true;
             logs.ShortcutsEnabled = true;
 
-            logs.Size = new Size(767, 140);
+            logs.Size = new Size(767, 125);
             logs.Location = new Point(0, 0);
 
             logs.Font = new Font("Consolas", 8);
@@ -204,6 +206,7 @@ namespace IDE
             //textBox.Indentation.SmartIndentType = ScintillaNET.SmartIndent.Simple;
 
             textBox.Anchor = Anchors();
+            textBox.AutoWordSelection = false;
             textBox.Size = new Size(767, 317);
             textBox.Location = new Point(0, 0);
             textBox.Font = new Font("Consolas", 9);
