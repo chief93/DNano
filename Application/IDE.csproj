@@ -56,6 +56,8 @@
     <Compile Include="Abstractions\FileItem.cs" />
     <Compile Include="Abstractions\ICreable.cs" />
     <Compile Include="Abstractions\IEditable.cs" />
+    <Compile Include="Abstractions\IOBuffer.cs" />
+    <Compile Include="Abstractions\IOTimeMachine.cs" />
     <Compile Include="Abstractions\IProject.cs" />
     <Compile Include="Abstractions\ISolution.cs" />
     <Compile Include="Abstractions\Projects\Executable.cs" />
@@ -107,15 +109,6 @@
       <DependentUpon>ServiceSettings.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

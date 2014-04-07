@@ -21,28 +21,39 @@ namespace IDE
     {
         private string _currentFile;
 
-		public Stack<string> actionList = new Stack<string>();
-
-        // я не это имел в виду когда говорил про ОДНО ОБЩЕЕ МЕНЮ
-		ContextMenuStrip menu = new ContextMenuStrip();
-		ToolStripMenuItem menuCopy = new ToolStripMenuItem("Копировать");
-
-		ContextMenuStrip menueditor = new ContextMenuStrip();
-		ToolStripMenuItem menueditorCopy = new ToolStripMenuItem("Копировать");
-		ToolStripMenuItem  menueditorPaste = new ToolStripMenuItem("Вставить");
+        public IOBuffer Buffer { get; private set; }
+        public IOTimeMachine History { get; private set; }
 
         public AppWindow()
         {
             InitializeComponent();
 
-			menu.Items.Add(menuCopy);
-			menuCopy.Click += new EventHandler(menuCopy_Click);
+            Buffer = new IOBuffer();
+            History = new IOTimeMachine();
 
-			menuCopy.ShortcutKeys = Keys.Control | Keys.C;
+            _initEdit();
 
             Logs.TabPages[Logs.TabPages.IndexOfKey("IDE")].Controls.Add(_initLogs());
             Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls.Add(_initLogs());
             Logs.TabPages[Logs.TabPages.IndexOfKey("SearchLog")].Controls.Add(_initLogs());
+        }
+
+        private void _initEdit()
+        {
+            MenuEditUndo.Click += History.OnUndo;
+            MenuEditRedo.Click += History.OnRedo;
+            //--------------------------------------
+            MenuEditCopy.Click += Buffer.OnCopy;
+            MenuEditCut.Click += Buffer.OnCut;
+            MenuEditPaste.Click += Buffer.OnPaste;
+            MenuEditDelete.Click += Buffer.OnDelete;
+            //--------------------------------------
+            MenuEditSelectAll.Click += (object sender, EventArgs e) => {
+                RichTextBox textBox = Buffer.ActiveControl as RichTextBox;
+
+                if (textBox == null)
+                    textBox.SelectAll();
+            };
         }
 
         private RichTextBox _initLogs()
@@ -61,28 +72,10 @@ namespace IDE
             logs.BorderStyle = BorderStyle.None;
             logs.Text = "";
 
-			logs.ContextMenuStrip = menu;
+            Buffer.Listen(logs);
 
             return logs;
         }
-
-		private void menuCopy_Click(object sender, EventArgs e)
-		{	
-			RichTextBox box = (RichTextBox)(Logs.SelectedTab.Controls[0]);
-			box.Copy();
-		}
-
-		private void menueditorCopy_Click(object sender, EventArgs e)
-		{	
-			RichTextBox box = (RichTextBox)(WorkingFiles.SelectedTab.Controls[0]);
-			box.Copy();
-		}
-
-		private void menueditorPaste_Click(object sender, EventArgs e)
-		{	
-			RichTextBox box = (RichTextBox)(WorkingFiles.SelectedTab.Controls[0]);
-			box.Paste();
-		}
 
 
         private AnchorStyles Anchors()
@@ -190,21 +183,6 @@ namespace IDE
 
             RichTextBox textBox = new RichTextBox();
 
-            /*
-             * bad :(
-             */
-            //Sansguerre.GtkScintilla textBox = new Sansguerre.GtkScintilla();
-            //textBox.LexerLanguage = "d";
-
-            /* 
-             * better, but non-universal. bugs on Mono
-             */
-            //ScintillaNET.Scintilla textBox = new ScintillaNET.Scintilla();
-            //textBox.Margins[0].Width = 20;
-            //textBox.Styles.Default.Font = new Font("Consolas", 9);
-            //textBox.ConfigurationManager.Language = "d";
-            //textBox.Indentation.SmartIndentType = ScintillaNET.SmartIndent.Simple;
-
             textBox.Anchor = Anchors();
             textBox.AutoWordSelection = false;
             textBox.Size = new Size(767, 317);
@@ -212,20 +190,11 @@ namespace IDE
             textBox.Font = new Font("Consolas", 9);
             textBox.BorderStyle = BorderStyle.None;
 
-			textBox.ContextMenuStrip = menueditor;
-
             textBox.Text = file.Contents;
             textBox.AcceptsTab = true;
 
-			textBox.TextChanged += new EventHandler(textBox_TextChanged);
-
-			menueditor.Items.Add(menueditorCopy);
-			menueditor.Items.Add(menueditorPaste);
-
-			menueditorCopy.ShortcutKeys = Keys.Control | Keys.C;
-			menueditorPaste.ShortcutKeys = Keys.Control | Keys.V;
-			menueditorCopy.Click += new EventHandler(menueditorCopy_Click);
-			menueditorPaste.Click += new EventHandler(menueditorPaste_Click);
+            Buffer.Listen(textBox);
+            History.Listen(textBox);
 
             newTab.Controls.Add(textBox);
 
@@ -254,12 +223,6 @@ namespace IDE
                 return;
             }
         }
-
-		private void textBox_TextChanged(object sender, EventArgs e)
-		{
-			RichTextBox box = (RichTextBox)sender;
-			actionList.Push(box.Text);
-		}
 
         private void WorkingFilesTabContextMenuClose_Click(object sender, EventArgs e)
         {
@@ -516,12 +479,6 @@ namespace IDE
         {
             Logs.TabPages[Logs.TabPages.IndexOfKey("Output")].Controls[0].Text += compiler.Id + " >> [ ok ] " + compiler.Output.Assembly.Name + " Компиляция завершена\r\n";
         }
-
-		private void MenuEditUndo_Click(object sender, EventArgs e)
-		{
-            RichTextBox box = (RichTextBox)sender;
-            box.Text = actionList.Pop();
-		}
 
         private void Logs_SelectedIndexChanged(object sender, EventArgs e)
         {
